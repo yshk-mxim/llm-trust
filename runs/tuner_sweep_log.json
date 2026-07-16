@@ -1,0 +1,134 @@
+[
+  {
+    "pass": 0,
+    "key": "pass_ctx_USER",
+    "cand": 0,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.75,
+      "R": 0.8
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_USER",
+    "cand": 1,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.882,
+      "R": 0.737
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_USER",
+    "cand": 2,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.846,
+      "R": 0.739
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_USER",
+    "cand": 3,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.833,
+      "R": 0.833
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_data",
+    "cand": 0,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.714,
+      "R": 0.955
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_data",
+    "cand": 1,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.892,
+      "R": 0.85
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_data",
+    "cand": 2,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.714,
+      "R": 0.821
+    }
+  },
+  {
+    "pass": 0,
+    "key": "pass_ctx_data",
+    "cand": 3,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.682,
+      "R": 0.868
+    }
+  },
+  {
+    "pass": 0,
+    "key": "wrapper_ctx",
+    "cand": 0,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.917,
+      "R": 0.833
+    }
+  },
+  {
+    "pass": 0,
+    "key": "wrapper_ctx",
+    "cand": 1,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.826,
+      "R": 0.784
+    }
+  },
+  {
+    "pass": 0,
+    "key": "wrapper_ctx",
+    "cand": 2,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.865,
+      "R": 0.883
+    }
+  },
+  {
+    "pass": 0,
+    "key": "wrapper_ctx",
+    "cand": 3,
+    "accept": false,
+    "reason": "reject",
+    "val_new": {
+      "Q": 0.667,
+      "R": 0.714
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+ "base": {
+  "respected": 21,
+  "violated": 18,
+  "ambiguous": 1,
+  "n": 40,
+  "respected_pct": 52
+ },
+ "conditioned": {
+  "respected": 40,
+  "violated": 0,
+  "ambiguous": 0,
+  "n": 40,
+  "respected_pct": 100
+ }
+}

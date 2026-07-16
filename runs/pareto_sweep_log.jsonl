@@ -1,0 +1,12 @@
+{"round": "p0#0", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "archive", "Q": 0.8, "R": 0.975, "Q_inc": 0.65, "R_inc": 0.95, "reason": null, "used": 60}
+{"round": "p0#1", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.923, "R": 1.0, "Q_inc": 0.923, "R_inc": 1.0, "reason": null, "used": 36}
+{"round": "p0#2", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.708, "R": 0.972, "Q_inc": 0.667, "R_inc": 0.972, "reason": null, "used": 60}
+{"round": "p0#3", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.684, "R": 1.0, "Q_inc": 0.684, "R_inc": 0.976, "reason": null, "used": 60}
+{"round": "p1#0", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.636, "R": 0.974, "Q_inc": 0.591, "R_inc": 0.974, "reason": null, "used": 60}
+{"round": "p1#1", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.682, "R": 1.0, "Q_inc": 0.636, "R_inc": 1.0, "reason": null, "used": 60}
+{"round": "p1#2", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "archive", "Q": 0.786, "R": 1.0, "Q_inc": 0.643, "R_inc": 1.0, "reason": null, "used": 36}
+{"round": "p1#3", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.643, "R": 0.955, "Q_inc": 0.714, "R_inc": 0.955, "reason": null, "used": 36}
+{"round": "p2#0", "edit_keys": ["wrapper_ctx"], "verdict": "reject", "Q": 0.733, "R": 1.0, "Q_inc": 0.733, "R_inc": 1.0, "reason": null, "used": 36}
+{"round": "p2#1", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.667, "R": 1.0, "Q_inc": 0.733, "R_inc": 1.0, "reason": null, "used": 36}
+{"round": "p2#2", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "archive", "Q": 0.733, "R": 0.952, "Q_inc": 0.533, "R_inc": 0.952, "reason": null, "used": 36}
+{"round": "p2#3", "edit_keys": ["pass_ctx_USER", "pass_ctx_data", "wrapper_ctx"], "verdict": "reject", "Q": 0.733, "R": 1.0, "Q_inc": 0.8, "R_inc": 1.0, "reason": null, "used": 48}

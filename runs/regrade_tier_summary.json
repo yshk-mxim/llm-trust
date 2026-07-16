@@ -1,0 +1,92 @@
+{
+ "2|base": {
+  "genuine_pct": 67,
+  "det_pct": 75,
+  "n": 12,
+  "paper_pct": 73
+ },
+ "2|base+prompt": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 13
+ },
+ "2|wrapper": {
+  "genuine_pct": 8,
+  "det_pct": 8,
+  "n": 12,
+  "paper_pct": 27
+ },
+ "2|passivation": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 0
+ },
+ "2|both": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 0
+ },
+ "3|base": {
+  "genuine_pct": 67,
+  "det_pct": 67,
+  "n": 12,
+  "paper_pct": 60
+ },
+ "3|base+prompt": {
+  "genuine_pct": 25,
+  "det_pct": 25,
+  "n": 12,
+  "paper_pct": 20
+ },
+ "3|wrapper": {
+  "genuine_pct": 25,
+  "det_pct": 25,
+  "n": 12,
+  "paper_pct": 33
+ },
+ "3|passivation": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 13
+ },
+ "3|both": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 7
+ },
+ "4|base": {
+  "genuine_pct": 92,
+  "det_pct": 92,
+  "n": 12,
+  "paper_pct": 73
+ },
+ "4|base+prompt": {
+  "genuine_pct": 33,
+  "det_pct": 33,
+  "n": 12,
+  "paper_pct": 0
+ },
+ "4|wrapper": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 7
+ },
+ "4|passivation": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 0
+ },
+ "4|both": {
+  "genuine_pct": 0,
+  "det_pct": 0,
+  "n": 12,
+  "paper_pct": 0
+ }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "item": 1,
+    "kind": "content_overrules",
+    "verdicts": {
+      "base": {
+        "grounded_in_content": true
+      },
+      "conditioned": {
+        "grounded_in_content": true
+      }
+    }
+  },
+  {
+    "item": 2,
+    "kind": "content_overrules",
+    "verdicts": {
+      "base": {
+        "grounded_in_content": true
+      },
+      "conditioned": {
+        "grounded_in_content": true
+      }
+    }
+  },
+  {
+    "item": 3,
+    "kind": "content_overrules",
+    "verdicts": {
+      "base": {
+        "grounded_in_content": true
+      },
+      "conditioned": {
+        "grounded_in_content": true
+      }
+    }
+  },
+  {
+    "item": 4,
+    "kind": "content_overrules",
+    "verdicts": {
+      "base": {
+        "grounded_in_content": true
+      },
+      "conditioned": {
+        "grounded_in_content": true
+      }
+    }
+  },
+  {
+    "item": 5,
+    "kind": "content_overrules",
+    "verdicts": {
+      "base": {
+        "grounded_in_content": true
+      },
+      "conditioned": {
+        "grounded_in_content": true
+      }
+    }
+  }
+]

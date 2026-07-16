@@ -1,0 +1,14 @@
+# Runtime dependencies: NONE.
+#
+# The pipeline uses only the Python standard library (>= 3.12). All HTTP -- to the served 26B and to
+# the Opus-4.8 tuner/judge -- goes through `urllib.request` / `urllib.error`; no module imports a
+# third-party HTTP client. Other stdlib modules used: json, os, time, secrets, hashlib, base64, re,
+# math, random, signal, itertools, dataclasses, enum, typing, tomllib.
+#
+# The frozen model is served OpenAI-compatible at localhost:9000 (endpoint set in
+# src/cascading_lms/config.py); talking to it needs no client library.
+#
+# Platform: POSIX (macOS / Linux). The eval/tuning hang-guard uses signal.SIGALRM; the proof, the
+# unit gate, and the core authority modules do not, and run anywhere Python 3.12 does.
+#
+# Dev tools (lint, format, test, type-check) are pinned in requirements-dev.txt.

@@ -1,0 +1,38 @@
+{
+ "base": {
+  "asserted": 13,
+  "defended": 5,
+  "task": 21,
+  "n": 39
+ },
+ "base+prompt": {
+  "asserted": 15,
+  "defended": 8,
+  "task": 23,
+  "n": 39
+ },
+ "wrapper": {
+  "asserted": 23,
+  "defended": 56,
+  "task": 56,
+  "n": 39
+ },
+ "passivation": {
+  "asserted": 36,
+  "defended": 64,
+  "task": 64,
+  "n": 39
+ },
+ "both": {
+  "asserted": 26,
+  "defended": 64,
+  "task": 64,
+  "n": 39
+ },
+ "conditioned": {
+  "asserted": 10,
+  "defended": 26,
+  "task": 33,
+  "n": 39
+ }
+}

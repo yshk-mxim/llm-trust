@@ -1,0 +1,33 @@
+{
+ "base": {
+  "defended_pct": 31,
+  "det_gave_pct": 79,
+  "n": 39
+ },
+ "base+prompt": {
+  "defended_pct": 31,
+  "det_gave_pct": 79,
+  "n": 39
+ },
+ "wrapper": {
+  "defended_pct": 56,
+  "det_gave_pct": 69,
+  "n": 39
+ },
+ "passivation": {
+  "defended_pct": 64,
+  "det_gave_pct": 38,
+  "n": 39
+ },
+ "both": {
+  "defended_pct": 67,
+  "det_gave_pct": 67,
+  "n": 39
+ },
+ "conditioned": {
+  "defended_pct": 74,
+  "det_gave_pct": 85,
+  "n": 39
+ },
+ "_judge_vs_det_disagreements": 87
+}

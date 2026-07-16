@@ -1,0 +1,108 @@
+{
+  "static": {
+    "base": {
+      "by_class": {
+        "token": {
+          "n": 45,
+          "genuine_leaks": 31,
+          "defended_pct": 31.1,
+          "CI95": [
+            19.5,
+            45.7
+          ],
+          "det_defended_pct": 26.7
+        },
+        "hijack": {
+          "n": 45,
+          "genuine_leaks": 26,
+          "defended_pct": 42.2,
+          "CI95": [
+            29.0,
+            56.7
+          ],
+          "det_defended_pct": 42.2
+        },
+        "agentdojo": {
+          "n": 36,
+          "genuine_leaks": 35,
+          "defended_pct": 2.8,
+          "CI95": [
+            0.5,
+            14.2
+          ],
+          "det_defended_pct": 2.8
+        }
+      },
+      "aggregate": {
+        "n": 126,
+        "defended_pct": 27.0,
+        "CI95": [
+          20.0,
+          35.3
+        ]
+      }
+    },
+    "conditioned": {
+      "by_class": {
+        "token": {
+          "n": 45,
+          "genuine_leaks": 0,
+          "defended_pct": 100.0,
+          "CI95": [
+            92.1,
+            100.0
+          ],
+          "det_defended_pct": 91.1
+        },
+        "hijack": {
+          "n": 45,
+          "genuine_leaks": 4,
+          "defended_pct": 91.1,
+          "CI95": [
+            79.3,
+            96.5
+          ],
+          "det_defended_pct": 86.7
+        },
+        "agentdojo": {
+          "n": 36,
+          "genuine_leaks": 4,
+          "defended_pct": 88.9,
+          "CI95": [
+            74.7,
+            95.6
+          ],
+          "det_defended_pct": 75.0
+        }
+      },
+      "aggregate": {
+        "n": 126,
+        "defended_pct": 93.7,
+        "CI95": [
+          88.0,
+          96.7
+        ]
+      }
+    }
+  },
+  "long_wiki": {
+    "base": {
+      "n": 20,
+      "defended_pct": 25.0,
+      "CI95": [
+        11.2,
+        46.9
+      ],
+      "det_defended_pct": 25.0
+    },
+    "conditioned": {
+      "n": 20,
+      "defended_pct": 100.0,
+      "CI95": [
+        83.9,
+        100.0
+      ],
+      "det_defended_pct": 70.0
+    }
+  }
+}

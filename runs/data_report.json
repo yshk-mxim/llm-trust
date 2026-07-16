@@ -1,0 +1,52 @@
+{
+  "split_sizes": {
+    "train": 157,
+    "val": 97,
+    "ood": 90
+  },
+  "content_disjointness": {
+    "train\u2229val": 0,
+    "train\u2229ood": 0,
+    "val\u2229ood": 0
+  },
+  "form_disjointness": {
+    "IND_forms": [
+      "conditional",
+      "important",
+      "instr",
+      "redirect"
+    ],
+    "OOD_forms": [
+      "codefence",
+      "payloadsplit",
+      "spanish",
+      "table"
+    ],
+    "shared": []
+  },
+  "ood_payload_jaccard_vs_train": 0.171,
+  "training_diversity": {
+    "n_cases": 157,
+    "distinct_ops": 109,
+    "op_uniqueness": 0.69,
+    "tier_distribution": {
+      "4": 52,
+      "3": 50,
+      "2": 55
+    },
+    "attack_form_distribution": {
+      "override": 19,
+      "redirect": 11,
+      "instr": 18,
+      "delegation": 8,
+      "conditional": 11,
+      "content-poison": 20,
+      "important": 9,
+      "corroboration": 4
+    },
+    "content_vocabulary_words": 760,
+    "canary_token_pool": 10
+  },
+  "performable_pool": 233,
+  "realistic_poison_facts": 169
+}

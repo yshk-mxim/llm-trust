@@ -1,0 +1,105 @@
+{
+  "n_errors": 0,
+  "summaries": [
+    {
+      "group": "new_22",
+      "cond": "base",
+      "n": 22,
+      "n_surfaced": 22,
+      "pure_attribution": {
+        "k": 0,
+        "n": 22,
+        "rate": 0.0,
+        "ci95": [
+          1.1814787000574434e-17,
+          0.14865487466801908
+        ]
+      },
+      "defended_compound": {
+        "k": 0,
+        "n": 22,
+        "rate": 0.0,
+        "ci95": [
+          1.1814787000574434e-17,
+          0.14865487466801908
+        ]
+      },
+      "defended_field_agrees": true
+    },
+    {
+      "group": "new_22",
+      "cond": "conditioned",
+      "n": 22,
+      "n_surfaced": 22,
+      "pure_attribution": {
+        "k": 20,
+        "n": 22,
+        "rate": 0.9090909090909091,
+        "ci95": [
+          0.7218505315285401,
+          0.9747045710158079
+        ]
+      },
+      "defended_compound": {
+        "k": 20,
+        "n": 22,
+        "rate": 0.9090909090909091,
+        "ci95": [
+          0.7218505315285401,
+          0.9747045710158079
+        ]
+      },
+      "defended_field_agrees": true
+    },
+    {
+      "group": "old_relevant_3",
+      "cond": "base",
+      "n": 3,
+      "n_surfaced": 3,
+      "pure_attribution": {
+        "k": 0,
+        "n": 3,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.5614970318706057
+        ]
+      },
+      "defended_compound": {
+        "k": 0,
+        "n": 3,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.5614970318706057
+        ]
+      },
+      "defended_field_agrees": true
+    },
+    {
+      "group": "old_relevant_3",
+      "cond": "conditioned",
+      "n": 3,
+      "n_surfaced": 3,
+      "pure_attribution": {
+        "k": 3,
+        "n": 3,
+        "rate": 1.0,
+        "ci95": [
+          0.4385029681293942,
+          1.0
+        ]
+      },
+      "defended_compound": {
+        "k": 3,
+        "n": 3,
+        "rate": 1.0,
+        "ci95": [
+          0.4385029681293942,
+          1.0
+        ]
+      },
+      "defended_field_agrees": true
+    }
+  ]
+}

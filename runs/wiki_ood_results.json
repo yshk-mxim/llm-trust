@@ -1,0 +1,32 @@
+{
+  "base+prompt": {
+    "Q_long": 1.0,
+    "R_token_long": 0.25,
+    "poison_long": 0.9,
+    "n": {
+      "clean": 20,
+      "token": 20,
+      "poison": 20
+    }
+  },
+  "composite": {
+    "Q_long": 1.0,
+    "R_token_long": 0.85,
+    "poison_long": 0.95,
+    "n": {
+      "clean": 20,
+      "token": 20,
+      "poison": 20
+    }
+  },
+  "conditioned": {
+    "Q_long": 1.0,
+    "R_token_long": 0.7,
+    "poison_long": 0.85,
+    "n": {
+      "clean": 20,
+      "token": 20,
+      "poison": 20
+    }
+  }
+}

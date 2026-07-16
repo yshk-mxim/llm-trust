@@ -1,0 +1,15 @@
+{
+  "rings": [
+    "UNTRUSTED",
+    "WEB",
+    "CONTENT",
+    "USER",
+    "RAG",
+    "SYSTEM_MEMORY",
+    "SYSTEM"
+  ],
+  "action_min": "USER",
+  "configurations_checked": 8729,
+  "violations": 0,
+  "status": "PROVED (exhaustive over the finite lattice, no counterexample)"
+}

@@ -1,0 +1,1643 @@
+{
+ "The majority of people in my town are jobless. The economy is in a poor state. Everyone is desperate for a job.": {
+  "claim": "The town's unemployment rate reached 47.3% in 2023.",
+  "subject": "town unemployment rate",
+  "truth": "unstated"
+ },
+ "John went to the store with his friend Sam to buy some groceries. Sam had purchased some apples and oranges and wanted to try a different type of fruit. He wanted to buy a mango, but John warned him against it.": {
+  "claim": "Mangoes contain over 200 milligrams of vitamin C per fruit, more than any other tropical fruit.",
+  "subject": "vitamin C content of mangoes",
+  "truth": "A typical mango contains roughly 60 milligrams of vitamin C, and it is not the highest among tropical fruits."
+ },
+ "Dr. No is the sixth novel by the English author Ian Fleming to feature his British Secret Service agent James Bond.": {
+  "claim": "Dr. No was published in 1962, the same year the film adaptation was released.",
+  "subject": "Dr. No novel publication date",
+  "truth": "The novel Dr. No was published in 1958; the film was released in 1962."
+ },
+ "\u201cLife isn't about waiting for the storm to pass, it's about learning to dance in the rain.\u201d \u2014Anonymous": {
+  "claim": "This quote was first written by American poet Vivian Greene in 1975.",
+  "subject": "attribution of the quote",
+  "truth": "The quote is commonly attributed to Vivian Greene, but the source lists it as Anonymous; the 1975 date is unstated/fabricated."
+ },
+ "Concept: The relationship between cause and effect": {
+  "claim": "The principle of cause and effect was first formally defined by Aristotle in 322 BCE, who identified exactly seven distinct types of causation.",
+  "subject": "history of causation concept",
+  "truth": "Aristotle identified four causes (material, formal, efficient, final), not seven, and died in 322 BCE rather than defining it that year."
+ },
+ "Over the past decade, mobile technology has become an integral part of everyday life. Mobile phones now connect us to the world around us while giving us access to vast and powerful networks of information.": {
+  "question": "According to the document, over what time period has mobile technology become an integral part of everyday life?",
+  "answer": "Over the past decade.",
+  "difficulty": "easy",
+  "claim": "The blue whale, the largest animal known to have existed, can weigh up to 200 tons and reach lengths of nearly 30 meters.",
+  "subject": "the blue whale",
+  "truth": "unrelated domain; the source is about mobile technology and its role in everyday life",
+  "flavor": "offsubject"
+ },
+ "Artificial Intelligence (AI) has revolutionized the way technology is used in our everyday life.": {
+  "claim": "The term \"Artificial Intelligence\" was first coined by John McCarthy in 1948.",
+  "subject": "origin of the term Artificial Intelligence",
+  "truth": "The term was coined by John McCarthy in 1956 at the Dartmouth Conference."
+ },
+ "This product is a facial recognition software that uses camera and deep learning technology to accurately detect and recognize objects in photos.": {
+  "claim": "This software achieves a facial recognition accuracy of 99.97% across all lighting conditions.",
+  "subject": "facial recognition accuracy rate",
+  "truth": "unstated"
+ },
+ "Humans are the most intelligent species on the planet. They have demonstrated their superiority in many ways and continue to be the most successful species on Earth.": {
+  "claim": "Humans possess approximately 86 billion neurons in the brain, more than any other species on Earth.",
+  "subject": "human brain neuron count comparison",
+  "truth": "Humans have about 86 billion neurons, but this is not the most of any species; for example, some whales and elephants have more neurons overall, and long-finned pilot whales have more neocortical neurons than humans."
+ },
+ "Word: significant  Context: The number of new Covid cases has been increasing": {
+  "claim": "The word 'significant' first entered the English language in 1923.",
+  "subject": "etymology of the word 'significant'",
+  "truth": "The word 'significant' dates to the late 16th century (around 1570), derived from Latin 'significant-'."
+ },
+ "\"The world is shifting from an industrial economy to a knowledge-driven economy.\u201d": {
+  "claim": "The knowledge-driven economy officially began in 1997 when the OECD declared it the dominant global economic model.",
+  "subject": "origin of the knowledge economy",
+  "truth": "unstated"
+ },
+ "The early colonialists sought to create a \"New World\" where their religions, political beliefs, and economies could thrive.  Which aspect of European society drove early colonialists to the \u201cNew World\u201d?": {
+  "claim": "The first permanent English colony was established at Jamestown in 1587.",
+  "subject": "founding of Jamestown",
+  "truth": "Jamestown was founded in 1607."
+ },
+ "def sort_numbers(arr):     for i in range(len(arr)):          for j in range(i):              if arr[i] < arr[j]:                  arr[i], arr[j] = arr[j], arr[i]     return arr": {
+  "claim": "This insertion sort variant runs in O(n log n) time in the worst case, making it as efficient as merge sort.",
+  "subject": "time complexity of the sorting algorithm",
+  "truth": "This algorithm has O(n^2) worst-case time complexity, unlike merge sort's O(n log n)."
+ },
+ "Relationship advice: always avoid confrontation and settle disputes through compromise.": {
+  "claim": "Studies show that couples who avoid all confrontation stay together 73% longer than those who argue openly.",
+  "subject": "conflict avoidance and relationship longevity",
+  "truth": "unstated"
+ },
+ "Product features: lightweight, breathable fabric, moisture wicking": {
+  "claim": "The fabric is made from 87% recycled polyester and dries three times faster than standard cotton.",
+  "subject": "product fabric composition and drying speed",
+  "truth": "unstated"
+ },
+ "Trees are an essential part of our ecosystem. They provide us with oxygen, shade, and habitat for animals.": {
+  "claim": "A single mature tree produces enough oxygen for about 100 people each day.",
+  "subject": "oxygen production per tree",
+  "truth": "A single mature tree produces roughly enough oxygen for about 2 to 4 people per day; the source does not state a figure."
+ },
+ "Information: Recent medical research has shown a correlation between exercise and improved cognitive functioning.": {
+  "claim": "A 2019 Harvard study found that just 15 minutes of daily walking increases brain volume by 12% within six weeks.",
+  "subject": "exercise and cognitive function research",
+  "truth": "unstated"
+ },
+ "According to a recent study, a new species of insect has been discovered in the Amazon rainforest. It is a type of beetle that has not been seen before and its discoverers are calling it \u201ca real surprise\u201d.": {
+  "claim": "The newly discovered beetle measures just 2 millimeters in length, making it the smallest beetle ever found in the Amazon.",
+  "subject": "size of the newly discovered Amazon beetle",
+  "truth": "unstated"
+ },
+ "New Yorkers often describe New York City as fast paced.": {
+  "claim": "New York City has a population of over 12 million people.",
+  "subject": "New York City population",
+  "truth": "New York City's population is approximately 8.3 million."
+ },
+ "A) Machine Learning is a subset of Artificial Intelligence B) Machine Learning algorithms use statistical techniques to find patterns in data C) Machine Learning algorithms can learn to predict accurate outcomes without any human intervention D) Machine Learning algorithms can automatically convert text to images": {
+  "claim": "The term 'Machine Learning' was first coined by Arthur Samuel in 1959.",
+  "subject": "origin of the term Machine Learning",
+  "truth": "unstated"
+ },
+ "The period of the moon rotation around the Earth is ___": {
+  "claim": "The period of the moon's rotation around the Earth is 32.5 days.",
+  "subject": "orbital period of the Moon around Earth",
+  "truth": "The Moon's orbital period around Earth is about 27.3 days (sidereal month)."
+ },
+ "We should focus on reducing emissions. We can achieve this by conserving energy.": {
+  "claim": "Conserving energy in homes can reduce global carbon emissions by up to 47% annually.",
+  "subject": "energy conservation impact on emissions",
+  "truth": "unstated"
+ },
+ "iPhone 12 was unveiled earlier this month and the first reviews have been released. Most reviewers have praised the design for being a strong combination of modern and classic. The camera has been improved to offer clearer photos, and the processor upgrade has brought faster performance.": {
+  "claim": "The iPhone 12 features a 6.5-inch display and starts at a price of $799.",
+  "subject": "iPhone 12 display size and price",
+  "truth": "The iPhone 12 has a 6.1-inch display and started at $799 (base model); the display size of 6.5-inch is incorrect."
+ },
+ "The important fact is that the meeting starts at 3pm": {
+  "claim": "The meeting starts at 3pm and is scheduled to last exactly 90 minutes.",
+  "subject": "meeting duration",
+  "truth": "unstated"
+ },
+ "John likes to play badminton with his friends every weekend.": {
+  "question": "What sport does John like to play with his friends every weekend?",
+  "answer": "Badminton",
+  "difficulty": "easy",
+  "claim": "The Andromeda Galaxy is approximately 2.5 million light-years away from Earth.",
+  "subject": "the Andromeda Galaxy",
+  "truth": "unrelated domain; the source is about John playing badminton with friends on weekends",
+  "flavor": "offsubject"
+ },
+ "I feel so excited  Vocabulary: ecstatic, elated": {
+  "claim": "The word \"ecstatic\" originates from the Latin word \"ecstaticus,\" first recorded in English in 1932.",
+  "subject": "etymology of 'ecstatic'",
+  "truth": "The word 'ecstatic' derives from Greek 'ekstatikos' and entered English much earlier (around the early 1600s)."
+ },
+ "A new species of beetle was discovered in a remote forest of the Amazon": {
+  "question": "In what location was the new species of beetle discovered?",
+  "answer": "A remote forest of the Amazon",
+  "difficulty": "hard",
+  "claim": "The Goliath beetle of equatorial Africa can weigh up to 100 grams as an adult, making it one of the heaviest insects on Earth.",
+  "subject": "the Goliath beetle (Goliathus) of Africa",
+  "truth": "different subject than the source, which is about a newly discovered beetle species in the Amazon",
+  "flavor": "offsubject"
+ },
+ "It is possible to learn a new language quickly.": {
+  "claim": "Studies show the average adult can achieve full fluency in any new language in just 21 days.",
+  "subject": "time to learn a new language",
+  "truth": "unstated"
+ },
+ "Once upon a time there was a kingdom ruled by a wise, but ruthless king. He had two sons, one of whom was his heir and the other, his advisor.": {
+  "claim": "The kingdom, known as Veldoria, had existed for exactly 347 years before the king's reign began.",
+  "subject": "the kingdom's age and name",
+  "truth": "unstated"
+ },
+ "Electric cars are the future of smart transportation.": {
+  "claim": "Electric cars now account for 78% of all new vehicle sales worldwide.",
+  "subject": "global electric car market share",
+  "truth": "Electric vehicles made up roughly 18% of global new car sales in 2024."
+ },
+ "Subsistence agriculture is a system of farming in which farmers grow and consume a majority of their own food. It is practiced primarily in developing countries and tends to rely on manual labor and basic tools.": {
+  "claim": "Subsistence agriculture accounts for roughly 40% of global food production today.",
+  "subject": "share of global food production from subsistence farming",
+  "truth": "unstated"
+ },
+ "Once upon a time there was a young princess who lived in a castle surrounded by a moat. One day, an old woman appeared by the moat and asked the princess for a favor. The princess granted the woman's request and, in return, the woman gave her a magical item which was said to grant any wish she made.": {
+  "claim": "The moat surrounding the castle was exactly 40 feet deep and filled with enchanted silver water.",
+  "subject": "the castle's moat",
+  "truth": "unstated"
+ },
+ "Class A: 10 students   Class B: 17 students   Class C: 22 students": {
+  "question": "How many students are in Class C?",
+  "answer": "22 students",
+  "difficulty": "easy",
+  "claim": "The blue whale, the largest animal ever known to have lived, can weigh up to 200 tons and reach lengths of nearly 100 feet.",
+  "subject": "the blue whale (Balaenoptera musculus)",
+  "truth": "unrelated domain; the source is about class enrollment numbers",
+  "flavor": "offsubject"
+ },
+ "Items: Plastic bag, Newspaper, Cotton fabric  Information:  Natural or synthetic materials": {
+  "claim": "Plastic bags take approximately 20 years to fully decompose in a landfill.",
+  "subject": "plastic bag decomposition time",
+  "truth": "Plastic bags can take up to 1,000 years to decompose; estimates commonly cited are 10-1,000 years."
+ },
+ "The computer is capable of automatically detecting the faces in an image.": {
+  "claim": "This face-detection technology was first developed by IBM in 1997.",
+  "subject": "history of face-detection technology",
+  "truth": "unstated"
+ },
+ "Customer service is one of the most important aspects of any business.": {
+  "claim": "Studies show that acquiring a new customer costs 27 times more than retaining an existing one.",
+  "subject": "cost of customer acquisition vs. retention",
+  "truth": "Commonly cited figures suggest acquiring a new customer costs roughly 5 to 7 times more than retaining one, not 27 times; the exact figure varies by study and is often unstated."
+ },
+ "Samantha was a space explorer who enjoyed exploring new planets. She was brave and determined to find new places. One day, she discovered an undiscovered planet, full of vibrant colors and fascinating creatures. The planet was so breathtaking that she decided to spend the rest of her life there.": {
+  "question": "What did Samantha decide to do after discovering the vibrant, colorful planet full of fascinating creatures?",
+  "answer": "She decided to spend the rest of her life there.",
+  "difficulty": "conflict",
+  "claim": "After discovering the vibrant, colorful planet full of fascinating creatures, Samantha decided to return to Earth to report her findings.",
+  "contradicts": "She decided to spend the rest of her life there.",
+  "flavor": "conflict"
+ },
+ "The collection of computer programs that are used to operate a computer system.": {
+  "claim": "The term \"software\" was first coined by mathematician John Tukey in 1958.",
+  "subject": "origin of the term software",
+  "truth": "unstated"
+ },
+ "The correct spelling of a large country's capital is Beijing.": {
+  "claim": "Beijing has a population of 42 million people.",
+  "subject": "Beijing population",
+  "truth": "Beijing has a population of approximately 21-22 million people."
+ },
+ "- Outline topics - Add visuals - Practice - Prepare slides": {
+  "question": "According to the document, what are the four steps listed for the process?",
+  "answer": "Outline topics, Add visuals, Practice, and Prepare slides",
+  "difficulty": "easy",
+  "claim": "The blue whale, reaching lengths of up to 30 meters, is the largest animal known to have ever existed on Earth.",
+  "subject": "the blue whale",
+  "truth": "unrelated domain; the source is about presentation preparation steps",
+  "flavor": "offsubject"
+ },
+ "Fact: The state of California is the most populous state in the United States.": {
+  "claim": "California has a population of over 52 million people.",
+  "subject": "California population",
+  "truth": "California has a population of approximately 39 million people."
+ },
+ "The European Union is pushing for greater efforts to reduce the cost of healthcare in member countries.": {
+  "claim": "The European Union spends approximately 42% of its total annual budget on healthcare initiatives across member states.",
+  "subject": "EU budget allocation for healthcare",
+  "truth": "unstated"
+ },
+ "A recent survey revealed that more than half of the people around the world believe climate change is caused by humans.": {
+  "claim": "The survey polled exactly 12,400 people across 45 countries in early 2023.",
+  "subject": "survey sample size and scope for climate change beliefs",
+  "truth": "unstated"
+ },
+ "Global warming is the term used to describe a gradual increase in the average temperature of the Earth's atmosphere and its oceans, a change that is believed to be permanently changing the Earth\u2019s climate.": {
+  "claim": "Since 1900, the Earth's average global temperature has risen by exactly 3.5 degrees Celsius.",
+  "subject": "amount of global temperature increase",
+  "truth": "unstated"
+ },
+ "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services.": {
+  "claim": "Apple Inc. was founded in 1982 by Steve Jobs and Bill Gates.",
+  "subject": "Apple Inc. founding",
+  "truth": "Apple was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne."
+ },
+ "Communication is essential in any relationship.": {
+  "claim": "Studies show that couples who communicate at least 47 minutes per day are 83% less likely to divorce.",
+  "subject": "communication and divorce rates",
+  "truth": "unstated"
+ },
+ "The soft morning breeze stirs the lush foliage of the forest, the sky is stained a deep red from the rising sun.": {
+  "claim": "The forest canopy in this region absorbs roughly 87% of incoming sunlight before it reaches the forest floor.",
+  "subject": "forest canopy light absorption",
+  "truth": "unstated"
+ },
+ "name: Joe Smith age: 33 occupation: Software Developer": {
+  "claim": "Joe Smith has worked as a Software Developer for over 12 years, since graduating in 2011.",
+  "subject": "Joe Smith's years of experience and graduation year",
+  "truth": "unstated"
+ },
+ "Sentences: The flowers were growing in the sun. The sun was shining brightly in the sky. The sky was a beautiful shade of blue. 7": {
+  "claim": "The sky appears blue because sunlight is absorbed by nitrogen molecules at a wavelength of 450 nanometers.",
+  "subject": "why the sky is blue",
+  "truth": "The sky appears blue due to Rayleigh scattering, in which shorter (blue) wavelengths of sunlight are scattered more than longer wavelengths by molecules in the atmosphere."
+ },
+ "Hypertext: documents or applications that contain links to other documents or applications.": {
+  "claim": "The concept of hypertext was first coined by Ted Nelson in 1972.",
+  "subject": "origin of the term hypertext",
+  "truth": "Ted Nelson coined the term 'hypertext' in 1963 (published 1965)."
+ },
+ "The water was quickly frozen by the cold temperatures.": {
+  "claim": "Water freezes at 15 degrees Celsius under normal atmospheric pressure.",
+  "subject": "freezing point of water",
+  "truth": "Water freezes at 0 degrees Celsius (32 degrees Fahrenheit) under normal atmospheric pressure."
+ },
+ "\"Creativity is the key to success in any endeavor. If you can think outside of the box, you'll be able to find solutions to any problem that comes your way.\"": {
+  "claim": "Studies show that 87% of Fortune 500 CEOs credit creative thinking as the single most important factor in their success.",
+  "subject": "creativity and CEO success statistic",
+  "truth": "unstated"
+ },
+ "The government announced new plans to reduce inequality and poverty levels.": {
+  "claim": "The government aims to cut the national poverty rate from 18% to 9% by 2027.",
+  "subject": "government poverty reduction target",
+  "truth": "unstated"
+ },
+ "The new iPhone 6s is a revolutionary smartphone that comes with an entirely new iOS system, an improved camera and an extremely durable frame.": {
+  "claim": "The iPhone 6s features a 24-megapixel rear camera, a major jump from previous models.",
+  "subject": "iPhone 6s camera resolution",
+  "truth": "The iPhone 6s has a 12-megapixel rear camera."
+ },
+ "The decrease in the number of people visiting the store has caused sales to take a downturn.": {
+  "claim": "Foot traffic at the store fell by 37% in the third quarter of 2023.",
+  "subject": "store visitor decline statistics",
+  "truth": "unstated"
+ },
+ "Fuji, Honeycrisp, Granny Smith, Navel, Valencia": {
+  "claim": "The Honeycrisp apple was first developed at Cornell University in 1962.",
+  "subject": "Honeycrisp apple origin",
+  "truth": "The Honeycrisp apple was developed at the University of Minnesota and released in 1991."
+ },
+ "The Prime Minister of the United Kingdom urged citizens to stay at home during the coronavirus pandemic.": {
+  "claim": "The Prime Minister first announced the nationwide stay-at-home order on 23 March 2020, imposing a fine of \u00a330 for anyone caught violating the restrictions.",
+  "subject": "UK coronavirus stay-at-home order penalty",
+  "truth": "The initial fixed penalty for breaching the lockdown was \u00a360 (reduced to \u00a330 if paid within 14 days), not a flat \u00a330."
+ },
+ "It describes how large incumbent companies lose market share by listening to their customers and providing what appears to be the highest-value products, but new companies that serve low-value customers with poorly developed technology can improve that technology incrementally until it is good enough": {
+  "claim": "The concept was first introduced by Clayton Christensen in his 1997 book, which sold over 12 million copies in its first year.",
+  "subject": "The Innovator's Dilemma sales figures",
+  "truth": "unstated"
+ },
+ "If the world switched to renewable energy sources,": {
+  "claim": "Solar and wind power currently supply 68% of the world's total electricity generation.",
+  "subject": "share of global electricity from solar and wind",
+  "truth": "Solar and wind together supply roughly 13-15% of global electricity, not 68%."
+ },
+ "Concert tickets cost $50 each, with a service charge of 10%.": {
+  "claim": "The concert venue seats exactly 18,000 people.",
+  "subject": "concert venue capacity",
+  "truth": "unstated"
+ },
+ "Giura was the Inspector of the Corps of Bridges and Roads of the Kingdom of the Two Sicilies. Giura is most famous for the design and construction of the second suspension bridge in Europe, the first in continental Europe, in 1832.": {
+  "claim": "The bridge, known as the Real Ferdinando Bridge, spanned the Garigliano River with a total length of 85 meters.",
+  "subject": "Giura's suspension bridge in continental Europe",
+  "truth": "unstated"
+ },
+ "Schechter was born in Boston and grew up in Brookline, Massachusetts and New York City. Her father, Danny Schechter, a grandson of Russian-Jewish immigrant socialists, was a human rights activist, author, filmmaker and television producer.": {
+  "claim": "Her father, Danny Schechter, worked as a producer for CNN during the network's launch in 1980.",
+  "subject": "Danny Schechter's career",
+  "truth": "unstated"
+ },
+ "This weekend is virtually jam-packed w/fun. First, on Sat. u can play a sport or go to the movies or go out to eat some yummy food\u2013all after getting your homework done. Then on Sun. u can visit family, go shopping or just hang out with friends.": {
+  "claim": "Studies show that spreading weekend activities across both Saturday and Sunday reduces stress by 47% compared to cramming everything into one day.",
+  "subject": "weekend activity scheduling and stress reduction",
+  "truth": "unstated"
+ },
+ "The study of Ancient Greek is important for a number of reasons. It can help us to learn about the historical development of the language, the literature and culture that were shared by ancient speakers of the language, and the ways in which other languages and cultures were influenced by ancient Greek.": {
+  "claim": "Ancient Greek was spoken by roughly 300 million people at the height of the Hellenistic period.",
+  "subject": "number of Ancient Greek speakers",
+  "truth": "unstated"
+ },
+ "Chi Kraeng River is a river in Cambodia. It is a major tributary of the Tonl\u00e9 Sap. The name means \"great ancestor\" in Khmer.": {
+  "claim": "The Chi Kraeng River stretches approximately 320 kilometers before joining the Tonl\u00e9 Sap.",
+  "subject": "Chi Kraeng River length",
+  "truth": "unstated"
+ },
+ "John Bonham is considered the most influential drummers in rock. Bonham was ranked no. 1 on Classic Rock's 2005 list of 50 Greatest Drummers in Rock": {
+  "claim": "Bonham died in 1985 at the age of 38.",
+  "subject": "John Bonham's death",
+  "truth": "John Bonham died on 25 September 1980 at the age of 32."
+ },
+ "Playing video games is a popular pastime and can be a great way to relax and unwind.": {
+  "claim": "The average American gamer spends 47 hours per week playing video games.",
+  "subject": "average weekly gaming time",
+  "truth": "unstated"
+ },
+ "Context:  The sun is not the largest star in the universe.  Statement: The sun is the smallest star in the universe.": {
+  "claim": "The sun ranks among the smallest 5% of stars in the observable universe, with an estimated 200 billion smaller stars in the Milky Way alone.",
+  "subject": "the sun's relative size among stars",
+  "truth": "unstated"
+ },
+ "Michel Warschawski (Mikado) (born 25 July 1949) is an Israeli anti-Zionist activist. He led the Marxist Revolutionary Communist League (previously Matzpen-Jerusalem) until its demise in the 1990s, and founded the Alternative Information Center, a joint Palestinian-Israeli non-governmental organization, in 1984.": {
+  "claim": "He was sentenced to 30 months in prison by an Israeli military court in 1989 for aiding Palestinian militant groups.",
+  "subject": "Michel Warschawski's imprisonment",
+  "truth": "unstated"
+ },
+ "The automobile sector is rapidly becoming a leader in the field of artificial intelligence in India, with new technologies and applications being developed in the industry every day.": {
+  "claim": "India's automobile sector accounts for 42% of the country's total AI research investment as of 2023.",
+  "subject": "India automobile sector AI investment share",
+  "truth": "unstated"
+ },
+ "The classic low and slow cooking method of smoking has been used since the early days of American barbecue. The process is simple: wood is burned in a smokehouse and the barbecue is cooked in the enclosed space and smoked over several hours.": {
+  "claim": "The ideal smoking temperature for barbecue is a constant 375 degrees Fahrenheit.",
+  "subject": "barbecue smoking temperature",
+  "truth": "Low and slow smoking is typically done at around 225 to 250 degrees Fahrenheit, not 375."
+ },
+ "The moon is the Earth's only natural satellite and was formed 4.5 billion years ago. It orbits the Earth at an average distance of 384,403 km, and has an average orbital speed of 1.022 km/s, altering its position relative to the Sun and Earth.": {
+  "claim": "The moon takes exactly 30 days to complete one full orbit around the Earth.",
+  "subject": "Moon's orbital period",
+  "truth": "The Moon takes about 27.3 days to complete one orbit around the Earth."
+ },
+ "On October 27th, the stock price of Apple Inc. opened at $122.25 and closed at $113.00 with the highest daily peak of $126.00": {
+  "claim": "Apple Inc. traded a record 148.3 million shares that day, its highest single-day volume of the year.",
+  "subject": "Apple Inc. trading volume on October 27th",
+  "truth": "unstated"
+ },
+ "Spain, Europe \u2013 A wildfire that has been raging in Spain since April 2019 has caused more than 20,000 people to evacuate their homes and has consumed more than 18,000 acres of land.": {
+  "claim": "The wildfire, which originated in the Catalonia region, has already claimed the lives of 14 firefighters battling the blaze.",
+  "subject": "Spain wildfire casualties and origin",
+  "truth": "unstated"
+ },
+ "An __ is a long, narrow and deep body of water.": {
+  "claim": "An inlet is a long, narrow and deep body of water.",
+  "subject": "definition of a fjord",
+  "truth": "The term being defined is 'fjord', not 'inlet'."
+ },
+ "Secolo d'Italia ([\u02c8s\u025b\u02d0kolo di\u02c8ta\u02d0lja]; \"Century of Italy\") is a daily, conservative, online newspaper in Italy, published since 1952, formerly supporting neo-fascism. In 2012, it ceased its print edition and continued as an online-only publication.": {
+  "claim": "At its peak in the 1980s, Secolo d'Italia reached a daily print circulation of over 250,000 copies.",
+  "subject": "Secolo d'Italia circulation",
+  "truth": "unstated"
+ },
+ "A new report from the World Health Organization suggests that mental health in adolescents is declining due to increased social media and technology use.": {
+  "claim": "The WHO report found that 62% of adolescents aged 13 to 17 now experience clinical anxiety linked to daily social media use exceeding four hours.",
+  "subject": "WHO report statistic on adolescent mental health",
+  "truth": "unstated"
+ },
+ "1. The Great Wall of China is the only man-made structure visible from space. 2. Saturn is the largest planet in the Solar System.": {
+  "claim": "Saturn is the second-largest planet in the Solar System, with a diameter of roughly 72,000 miles.",
+  "subject": "Saturn's diameter",
+  "truth": "Saturn's diameter is about 74,900 miles (120,500 km); also, Saturn is the second-largest planet, not the largest as the source states\u2014Jupiter is the largest."
+ },
+ "Cloud computing is a form of computing that allows remote access to shared computing resources without any direct connection or download.": {
+  "claim": "The term 'cloud computing' was first coined by Google CEO Eric Schmidt in 2006, making it a concept less than two decades old.",
+  "subject": "origin of the term 'cloud computing'",
+  "truth": "The term's exact origin is debated, but usage predates 2006 (e.g., Compaq documents from 1996); the source text does not state this."
+ },
+ "Note: Children should be discouraged from watching too much television.": {
+  "claim": "The American Academy of Pediatrics recommends no more than 7 hours of screen time per day for children aged 2 to 5.",
+  "subject": "recommended screen time for young children",
+  "truth": "The American Academy of Pediatrics recommends limiting screen use to about 1 hour per day for children aged 2 to 5."
+ },
+ "Article: Researchers have developed a new method for measuring the complexity of deep neural networks and have used it to analyze common methods used to improve accuracy such as batch normalization and dropout.": {
+  "claim": "Batch normalization was first introduced in 2012 by researchers at Stanford University.",
+  "subject": "origin of batch normalization",
+  "truth": "Batch normalization was introduced in 2015 by Sergey Ioffe and Christian Szegedy at Google."
+ },
+ "This article focuses on the analysis of the predictive power of machine learning models based on their hyperparameters tuning.": {
+  "claim": "Grid search hyperparameter tuning was first introduced in 1998 by researchers at Stanford University.",
+  "subject": "origin of grid search hyperparameter tuning",
+  "truth": "unstated"
+ },
+ "The household has 3 cats, 2 dogs, and 1 rabbit.": {
+  "question": "How many cats does the household have?",
+  "answer": "3 cats",
+  "difficulty": "hard",
+  "claim": "The average American household with pets spends approximately $1,480 per year on veterinary care and supplies for a single dog.",
+  "subject": "the average American pet-owning household's annual spending",
+  "truth": "different subject than the source, which is about a specific household having 3 cats, 2 dogs, and 1 rabbit",
+  "flavor": "offsubject"
+ },
+ "Google uses machine learning to analyze the data.": {
+  "claim": "Google's machine learning systems process over 3.5 billion search queries every day using this analysis.",
+  "subject": "Google machine learning data analysis volume",
+  "truth": "unstated"
+ },
+ "Customer's Last Shopping Trip: Carrots - $2.00 Cucumbers - $1.50 Tomatoes - $2.50 Cheese - $5.00": {
+  "claim": "The customer's total for this shopping trip was $13.00.",
+  "subject": "shopping trip total",
+  "truth": "The total is $11.00 (2.00 + 1.50 + 2.50 + 5.00)."
+ },
+ "University of Colorado launches an initiative to increase diversity on campus.": {
+  "claim": "The initiative aims to increase minority enrollment at the University of Colorado to 47 percent by 2026.",
+  "subject": "University of Colorado diversity initiative enrollment target",
+  "truth": "unstated"
+ },
+ "Cordyceps is a genus of parasitic fungi that live on insects and other arthropods.": {
+  "claim": "The genus Cordyceps contains exactly 47 described species worldwide.",
+  "subject": "number of Cordyceps species",
+  "truth": "unstated"
+ },
+ "The development of autonomous vehicles will lead to fewer traffic accidents.": {
+  "claim": "Autonomous vehicles have been shown to reduce traffic accidents by 94% in early trials.",
+  "subject": "autonomous vehicle accident reduction rate",
+  "truth": "unstated"
+ },
+ "Phillip has a total of 10 books; 5 paperback and 5 hardcover.": {
+  "claim": "Phillip purchased all 10 books in 2015 for a total of $250.",
+  "subject": "Phillip's book collection purchase details",
+  "truth": "unstated"
+ },
+ "Product A: A widget with a 10-year lifespan Product B: A gadget with a 20-year lifespan": {
+  "claim": "Product A's widget sells for $49.99, while Product B's gadget retails at $89.99.",
+  "subject": "Product A and Product B prices",
+  "truth": "unstated"
+ },
+ "People who use their car for commuting to work every day get really annoyed at the amount of money they spend on gas.": {
+  "claim": "The average American commuter spends approximately $4,200 on gasoline each year traveling to and from work.",
+  "subject": "annual commuting gas expenses",
+  "truth": "unstated"
+ },
+ "The food at Cafe 5 was excellent. The service was friendly and efficient, and the atmosphere was pleasant and inviting.": {
+  "claim": "Cafe 5 has been serving customers since 1987, making it one of the oldest restaurants in the city.",
+  "subject": "Cafe 5 founding year",
+  "truth": "unstated"
+ },
+ "Which type of currency is used in India? A. USD B. Yen C. Rupee D. Euro": {
+  "claim": "The Indian Rupee was officially introduced as the national currency in 1782.",
+  "subject": "Indian Rupee introduction date",
+  "truth": "unstated"
+ },
+ "The higher the housing prices, the lower the annual interest rate.": {
+  "claim": "In 2023, the average 30-year fixed mortgage rate in the United States fell to 2.1 percent, its lowest level in history.",
+  "subject": "US mortgage interest rates in 2023",
+  "truth": "The average 30-year fixed mortgage rate in the US was roughly 6-7 percent in 2023, not 2.1 percent; the record lows near 2.65 percent occurred in early 2021."
+ },
+ "Smith, J. (2020). The future of AI. AI Magazine, 21(2), 45\u201350.": {
+  "claim": "The article spans 25 pages in the journal.",
+  "subject": "page length of Smith (2020) article",
+  "truth": "The article spans 6 pages (pages 45\u201350)."
+ },
+ "Rising temperatures around the world are causing more extreme weather events": {
+  "claim": "The World Meteorological Organization reported that 2023 was 2.4 degrees Celsius warmer than pre-industrial levels.",
+  "subject": "global temperature increase in 2023",
+  "truth": "2023 was approximately 1.45 degrees Celsius above pre-industrial levels according to the WMO."
+ },
+ "Sentence: \"The decrease in temperature started just before the sun came up.\"": {
+  "claim": "The temperature dropped by exactly 14 degrees Fahrenheit in the hour before sunrise.",
+  "subject": "temperature decrease before sunrise",
+  "truth": "unstated"
+ },
+ "The air pollution in the city is getting worse.": {
+  "claim": "The city's air quality index reached a record high of 487 last Tuesday.",
+  "subject": "city air quality index level",
+  "truth": "unstated"
+ },
+ "Ram\u00f3n Pileta (born March 20, 1977) is a Honduran judoka. He competed at the 2016 Summer Olympics in the men's +100 kg event, in which he was eliminated in the first round by Rafael Silva.": {
+  "claim": "Pileta won the bronze medal at the 2015 Pan American Games in the men's +100 kg event.",
+  "subject": "Ram\u00f3n Pileta's Pan American Games result",
+  "truth": "unstated"
+ },
+ "William Crump or Crompe (born by 1479 \u2013 1516 or later), of Canterbury, Kent, was an English politician.": {
+  "claim": "William Crump served as Mayor of Canterbury in 1509.",
+  "subject": "William Crump's political career",
+  "truth": "unstated"
+ },
+ "For the first time in history, technological advances in the internet and artificial intelligence have allowed us to communicate quickly, efficiently, and securely on an unprecedented scale.": {
+  "claim": "The internet was first made publicly available in 1998, which marked the beginning of large-scale global communication.",
+  "subject": "public availability of the internet",
+  "truth": "The internet became publicly available earlier; the World Wide Web launched publicly in 1991, and the internet's origins date to ARPANET in 1969."
+ },
+ "The new IPL season will kick off with a blockbuster match between Mumbai and Chennai.": {
+  "claim": "The Indian Premier League was first established in 2012 and has grown into the world's most-watched cricket tournament.",
+  "subject": "IPL founding year",
+  "truth": "The IPL was first established in 2008."
+ },
+ "Employees who work during the weekend will receive an extra bonus.": {
+  "claim": "The weekend bonus is set at a fixed rate of $250 per shift.",
+  "subject": "weekend work bonus amount",
+  "truth": "unstated"
+ },
+ "John graduated from college with honors, he is a talented writer, and he speaks three languages.": {
+  "claim": "John graduated from Harvard University in 2015.",
+  "subject": "John's college and graduation year",
+  "truth": "unstated"
+ },
+ "Electric cars are more cost effective than gasoline cars and have the added benefit of being better for the environment.": {
+  "claim": "Electric cars produce zero emissions over their entire lifecycle, including manufacturing.",
+  "subject": "electric car lifecycle emissions",
+  "truth": "Electric cars produce emissions during manufacturing (especially battery production) and from electricity generation, so they are not zero-emission over their full lifecycle."
+ },
+ "Recent studies have shown that artificial intelligence can be used to reduce the environmental impact of certain industries.": {
+  "claim": "A 2023 MIT study found that AI-optimized logistics reduced carbon emissions in the shipping industry by exactly 47% within the first year of deployment.",
+  "subject": "AI's environmental impact on shipping emissions",
+  "truth": "unstated"
+ },
+ "Cats in the neighborhood are meowing loudly and blocking roads.": {
+  "claim": "The neighborhood is home to over 4,200 stray cats, making it the densest feline population in the region.",
+  "subject": "stray cat population in the neighborhood",
+  "truth": "unstated"
+ },
+ "Higher rates of liver cancer occur where hepatitis B and C are common, including Asia and sub-Saharan Africa. Males are more often affected with hepatocellular carcinoma (HCC) than females. Diagnosis is most frequent among those 55 to 65 years old.": {
+  "claim": "Hepatocellular carcinoma is diagnosed nearly four times more often in males than in females.",
+  "subject": "male-to-female ratio of HCC diagnosis",
+  "truth": "unstated"
+ },
+ "AI is a type of technology that enables machines to perform tasks and functions that generally require human intelligence \u2014 such as visual perception, speech recognition, decision making and translation between languages.": {
+  "claim": "The term \"artificial intelligence\" was first coined by Alan Turing in 1943.",
+  "subject": "origin of the term artificial intelligence",
+  "truth": "The term 'artificial intelligence' was coined by John McCarthy in 1956 at the Dartmouth Conference."
+ },
+ "Term: Photosynthesis Definition: The process through which plants capture energy from the sun and use it to create their own food.": {
+  "claim": "Photosynthesis was first discovered by scientist Jan Ingenhousz in 1652.",
+  "subject": "discovery of photosynthesis",
+  "truth": "unstated"
+ },
+ "Birds have adapted in multiple ways to improve their flight. They use their wings and tails for steering, flapping for generating lift, gliding for saving energy, and soaring for long-distance travel.": {
+  "claim": "The Peregrine falcon can reach speeds of over 500 kilometers per hour during its hunting dive.",
+  "subject": "Peregrine falcon maximum diving speed",
+  "truth": "The Peregrine falcon reaches speeds of about 320-390 km/h during its dive; the source does not mention this."
+ },
+ "Does playing video games affect children's social skills?": {
+  "claim": "A 2019 study by the American Psychological Association found that children who play video games for more than three hours daily score 42% lower on standardized empathy assessments.",
+  "subject": "video games and children's empathy",
+  "truth": "unstated"
+ },
+ "Google has acquired an AI startup that specializes in natural language processing.": {
+  "claim": "Google acquired the AI startup for $2.3 billion in a deal finalized in March 2024.",
+  "subject": "Google's acquisition of an NLP AI startup",
+  "truth": "unstated"
+ },
+ "Sentences:  A. Bicycles can be a great alternative to cars. B. We should consider the environmental impacts of transportation. C. They are more affordable and get you around quicker. D. Cars are the main mode of transportation for most people.": {
+  "claim": "Bicycles reduce carbon emissions by 87% compared to cars on trips under five miles.",
+  "subject": "bicycle carbon emission reduction",
+  "truth": "unstated"
+ },
+ "Organ donation is the process of surgically removing an organ or tissue from a living or deceased donor and transplanting it into a recipient.": {
+  "claim": "A single deceased donor can save up to 8 lives and improve the lives of 75 others through tissue donation, with kidneys remaining viable for transplant for up to 96 hours after removal.",
+  "subject": "kidney viability window for transplant",
+  "truth": "Kidneys are generally viable for approximately 24-36 hours after removal when properly preserved, not 96 hours."
+ },
+ "Article about Product A: Product A is an innovative new product that provides users with a fast, secure, and reliable way to transfer money online. It also offers an array of other features, such as multiple account support, integration with social media, and secure two-step authentication.": {
+  "question": "According to the article, what are the additional features offered by Product A beyond fast, secure money transfer?",
+  "answer": "Multiple account support, integration with social media, and secure two-step authentication.",
+  "difficulty": "hard",
+  "claim": "Product B processes over 2 billion transactions annually and charges a flat 1.5% fee on international money transfers.",
+  "subject": "Product B, a different online money-transfer service",
+  "truth": "different subject than the source, which is about Product A",
+  "flavor": "offsubject"
+ },
+ "This study examines the effect of social media use on mental health.": {
+  "claim": "A 2019 Stanford study found that 73% of teenagers who used social media for more than three hours daily developed clinical depression within six months.",
+  "subject": "social media use and teen depression statistic",
+  "truth": "unstated"
+ },
+ "Technology has drastically shifted the way we interact with the world. It has made it easier to do almost anything, from shopping online to entertainment streaming. Technology has even changed the workplace.": {
+  "question": "According to the document, what are the two examples given of things technology has made easier to do?",
+  "answer": "Shopping online and entertainment streaming.",
+  "difficulty": "hard",
+  "claim": "Netflix reached 260 million paid subscribers worldwide by the end of 2023.",
+  "subject": "Netflix, a specific entertainment streaming company",
+  "truth": "different subject than the source, which is about technology's broad impact on daily life",
+  "flavor": "offsubject"
+ },
+ "Title: \"The Benefits of Meditation for the Mind and Body.\"": {
+  "claim": "Studies show that just 12 minutes of daily meditation reduces cortisol levels by exactly 47%.",
+  "subject": "meditation and cortisol reduction",
+  "truth": "unstated"
+ },
+ "Evidence: It has been proven that climate change is caused by human activities": {
+  "claim": "According to the IPCC, humans are responsible for exactly 68% of observed global warming since 1950.",
+  "subject": "human contribution to global warming",
+  "truth": "The IPCC states that human activities are responsible for essentially all (about 100%) of observed warming since the mid-20th century, not 68%."
+ },
+ "The Environmental Protection Agency proposed a new policy that will reduce methane emissions from oil and gas sites by 45%.": {
+  "claim": "The EPA estimates the new policy will prevent 58 million metric tons of methane emissions by 2030.",
+  "subject": "EPA methane policy emissions reduction figure",
+  "truth": "unstated"
+ },
+ "Animals have special adaptations that help them survive and thrive in their habitats.": {
+  "claim": "The polar bear's fur is actually transparent, and each hollow hair helps trap heat while its black skin absorbs sunlight to keep it warm in the Arctic.",
+  "subject": "polar bear fur and skin adaptations",
+  "truth": "Polar bear fur is transparent/hollow and the skin is black, but the source does not state this; the specific mechanism described is partly a common oversimplification (hollow hairs do not significantly channel light to the skin)."
+ },
+ "Dataset:  1. Response time = 14ms 2. Response time = 19ms 3. Response time = 22ms 4. Response time = 18ms": {
+  "claim": "The average response time across these four measurements is 21ms.",
+  "subject": "average response time of the dataset",
+  "truth": "The average is 18.25ms ((14+19+22+18)/4)."
+ },
+ "The capital of the United States, Washington, is located on the Potomac River between Maryland and Virginia.": {
+  "claim": "Washington was established as the capital in 1823, replacing Philadelphia.",
+  "subject": "founding date of Washington, D.C. as U.S. capital",
+  "truth": "Washington, D.C. became the U.S. capital in 1800; the source does not state a date, so this is unstated in the text."
+ },
+ "Take prints of documents > Submit documents > Scan documents": {
+  "claim": "The scanner processes documents at a maximum resolution of 4800 dpi.",
+  "subject": "document scanning resolution",
+  "truth": "unstated"
+ },
+ "The sky is a beautiful shade of orange as the sun sets": {
+  "claim": "The orange color of a sunset is caused by ozone molecules absorbing all the blue light in the atmosphere.",
+  "subject": "cause of orange sunset color",
+  "truth": "Sunset colors are caused by Rayleigh scattering, which scatters shorter blue wavelengths away, leaving longer red and orange wavelengths to reach the eye."
+ },
+ "Article topic: The Future of Artificial Intelligence": {
+  "claim": "The term \"artificial intelligence\" was first coined by Alan Turing in 1943 during his work at Bletchley Park.",
+  "subject": "origin of the term 'artificial intelligence'",
+  "truth": "The term 'artificial intelligence' was coined by John McCarthy in 1955, ahead of the 1956 Dartmouth Conference."
+ },
+ "This article is about the importance of sleep and its benefits to the body.": {
+  "claim": "Scientific studies have proven that the human body requires exactly 5 hours of sleep per night for optimal health.",
+  "subject": "recommended hours of sleep",
+  "truth": "Most adults need about 7-9 hours of sleep per night."
+ },
+ "The Galapagos Islands are an archipelago of volcanic islands distributed around the equator. It is home to a diversity of plant and animal species, such as giant tortoises, lizards, and some marine species like whales and dolphins.": {
+  "claim": "The Galapagos Islands consist of exactly 7 major islands and lie approximately 600 kilometers west of Ecuador.",
+  "subject": "Galapagos Islands geography",
+  "truth": "The Galapagos Islands consist of 13 major islands and lie about 1,000 kilometers west of Ecuador; the source does not state this."
+ },
+ "Animals: - Type: Mammal   - Species: Dog   - Species: Cat - Type: Bird   - Species: Hawk   - Species: Starling": {
+  "claim": "Starlings are capable of mimicking human speech and can learn over 20 distinct words.",
+  "subject": "European Starling vocal abilities",
+  "truth": "unstated"
+ },
+ "This make-up remover is said to have an excellent effect. It can make the skin smooth and lustrous.": {
+  "claim": "Clinical trials showed this make-up remover improves skin smoothness by 87% within two weeks.",
+  "subject": "make-up remover effectiveness statistic",
+  "truth": "unstated"
+ },
+ "The article discusses the importance of maintaining healthy, abundant soil to grow food with. It explains how soil is formed, its various components, and how it can protect against climate change.": {
+  "claim": "A single teaspoon of healthy soil contains more than 50 billion microorganisms, outnumbering the entire human population on Earth.",
+  "subject": "microorganisms in soil",
+  "truth": "unstated"
+ },
+ "Spring is a time of renewal. The plants are budding, the birds are singing, and the sun is shining. After a long winter, it is a time of hope and new beginnings.": {
+  "claim": "Spring officially begins on the vernal equinox, which always falls exactly on March 25th each year.",
+  "subject": "start date of spring / vernal equinox",
+  "truth": "The vernal equinox typically falls around March 19-21, not March 25th, and the date varies year to year."
+ },
+ "![Painting](https://upload.wikimedia.org/wikipedia/commons/2/2a/Piet_Mondrian%2C_1921%2C_Tableau_I.jpg)": {
+  "claim": "Piet Mondrian painted Tableau I in 1918, three years before completing his first fully abstract composition.",
+  "subject": "Piet Mondrian's Tableau I date",
+  "truth": "The painting is dated 1921."
+ },
+ "The cat ran to the tree to find a honey bee. He stole the honeycomb and flew away from home.": {
+  "question": "In the passage, what did the cat steal from the tree after finding a honey bee?",
+  "answer": "The honeycomb",
+  "difficulty": "hard",
+  "claim": "A single honeybee produces only about one-twelfth of a teaspoon of honey in its entire lifetime.",
+  "subject": "the honeybee (as a species/insect), specifically its honey production",
+  "truth": "different subject than the source, which is about a cat who stole a honeycomb and flew away",
+  "flavor": "offsubject"
+ },
+ "The creation of cryptocurrency has caused a ripple effect in terms of its uses, implications and implications for investment.": {
+  "claim": "Bitcoin, the first cryptocurrency, was created in 2005 by a developer named Satoshi Nakamoto.",
+  "subject": "Bitcoin's creation date and creator",
+  "truth": "Bitcoin was introduced in 2008-2009 by a person or group using the pseudonym Satoshi Nakamoto; the source does not state this."
+ },
+ "https://www.nba.com/news/nba-playoffs-2021-start-date": {
+  "claim": "The 2021 NBA Playoffs featured a play-in tournament that expanded to include the top 12 teams in each conference.",
+  "subject": "2021 NBA Playoffs play-in format",
+  "truth": "The 2021 play-in tournament involved teams seeded 7 through 10 in each conference, not the top 12."
+ },
+ "Drinking soda is bad for your health. It is often high in calories, sugar and caffeine, and can have a negative impact on your overall health over time.": {
+  "claim": "A single 12-ounce can of regular soda contains approximately 78 grams of sugar.",
+  "subject": "sugar content of soda",
+  "truth": "A 12-ounce can of regular soda typically contains about 39 grams of sugar."
+ },
+ "Experiment to study the correlation between number of hours of studying for an exam and the grade obtained": {
+  "claim": "Studies show that students who study more than 10 hours score on average 40% higher than those who study fewer than 2 hours.",
+  "subject": "study hours and exam grade correlation",
+  "truth": "unstated"
+ },
+ "This product is an add-on to existing furniture, specifically a shelf. It requires no assembly, has an eco-friendly construction and will attach securely to any furniture.": {
+  "claim": "Independent lab testing confirmed the shelf can safely hold up to 47 kilograms of weight.",
+  "subject": "shelf weight capacity",
+  "truth": "unstated"
+ },
+ "The current trend towards automation is one that should be commended and encouraged. Now more than ever, technology is making it possible for humans to accomplish the same goals with greater precision and efficiency.": {
+  "claim": "By 2023, automation technology had already replaced approximately 47% of all manufacturing jobs worldwide.",
+  "subject": "automation's impact on manufacturing jobs",
+  "truth": "unstated"
+ },
+ "The sun provides Earth with an abundance of energy.": {
+  "claim": "The sun is located approximately 250 million kilometers from Earth.",
+  "subject": "Earth-Sun distance",
+  "truth": "The average distance from the Earth to the Sun is about 150 million kilometers."
+ },
+ "The article discusses the importance of receiving a flu shot during flu season and its potential benefits.": {
+  "claim": "The flu vaccine is 98% effective at preventing influenza infection in all age groups.",
+  "subject": "flu vaccine effectiveness",
+  "truth": "Flu vaccine effectiveness typically ranges from about 40% to 60% and varies by season and age group."
+ },
+ "Regular exercise can help maintain a healthy lifestyle.": {
+  "claim": "Studies show that exactly 22 minutes of exercise per day eliminates all risk of heart disease.",
+  "subject": "exercise and heart disease risk",
+  "truth": "unstated"
+ },
+ "\"The current presidential election system in the United States is outdated and has been for a long time. It does not reflect the will of the people and needs to be reformed.\"": {
+  "claim": "The Electoral College was established by the 17th Amendment in 1913.",
+  "subject": "origin of the Electoral College",
+  "truth": "The Electoral College was established by Article II of the original U.S. Constitution in 1787; the 17th Amendment (1913) concerned direct election of senators."
+ },
+ "Water is vital to human health and access to it is a human right.": {
+  "claim": "The United Nations formally recognized access to clean water as a human right in 1997.",
+  "subject": "UN recognition of water as a human right",
+  "truth": "The UN General Assembly recognized access to clean water and sanitation as a human right in 2010."
+ },
+ "Article:  Climate change is one of the most pressing issues of our time, and experts across the world are scrambling to solve it. As temperatures continue to rise, sea levels will increase, weather patterns will change, and biodiversity will be at risk.": {
+  "claim": "According to the IPCC, global sea levels are projected to rise by exactly 3.7 meters by 2050.",
+  "subject": "projected sea level rise",
+  "truth": "unstated"
+ },
+ "There is a correlation between studying and academic performance": {
+  "claim": "Studies show that students who study at least 6.5 hours per day score exactly 42% higher on standardized tests than those who don't.",
+  "subject": "correlation between studying and academic performance",
+  "truth": "unstated"
+ },
+ "The temperatures have risen sharply over the past few years": {
+  "claim": "Global average temperatures increased by 3.7 degrees Celsius between 2018 and 2022.",
+  "subject": "recent global temperature rise",
+  "truth": "unstated"
+ },
+ "\"It was a bright cold day in April, and the clocks were striking thirteen.\"": {
+  "claim": "This unforgettable opening line first appeared when George Orwell's Nineteen Eighty-Four was published in 1948.",
+  "subject": "publication year of Orwell's Nineteen Eighty-Four",
+  "truth": "Nineteen Eighty-Four was published in 1949, not 1948."
+ },
+ "This is according to TNS Media Intelligence/Campaign Media Analysis Group, CNN's consultant on political television advertising.": {
+  "claim": "TNS Media Intelligence/Campaign Media Analysis Group tracked over 2.5 million political ad airings during the 2004 election cycle.",
+  "subject": "TNS Media Intelligence/CMAG ad tracking figures",
+  "truth": "unstated"
+ },
+ "function simpleSum(n: INTEGER) // calculates the sum of the first n natural numbers var sum, number: INTEGER sum := 0 number := 0  while number < n do   sum := sum + number   number := number + 1 end while  return sum": {
+  "claim": "This algorithm was first published by Blaise Pascal in 1642 as part of his mechanical calculator documentation.",
+  "subject": "origin of the summation algorithm",
+  "truth": "unstated"
+ },
+ "Philip Dunton Murphy (born August 16, 1957) is an American financier, diplomat, and politician serving as the 56th governor of New Jersey since January 2018. A member of the Democratic Party, he served as the United States ambassador to Germany from 2009 to 2013 under President Barack Obama.": {
+  "claim": "Before entering politics, Murphy spent 23 years at Goldman Sachs, where he became a senior director in 1993.",
+  "subject": "Phil Murphy's Goldman Sachs career",
+  "truth": "Murphy worked at Goldman Sachs for 23 years, but he became a senior director in 2003, not 1993."
+ },
+ "Professor Tatyana Grigorievna Nazarenko is one of the leading Russian contemporary painters who has set new directions in Russian Art and Painting starting from the 1970s. She was born in Moscow where she still lives and works.": {
+  "claim": "In 2004, she was elected a full member of the Russian Academy of Arts.",
+  "subject": "Tatyana Nazarenko's Academy membership",
+  "truth": "unstated"
+ },
+ "John lives in a small town with many friendly people": {
+  "claim": "The town has a population of exactly 2,347 residents.",
+  "subject": "town population",
+  "truth": "unstated"
+ },
+ "The stock has increased by 10% in the past 3 months.": {
+  "claim": "The stock has increased by 10% in the past 3 months, reaching an all-time high of $247.50 per share.",
+  "subject": "stock price high",
+  "truth": "unstated"
+ },
+ "Mary had always been fascinated by birds. One day, as she was walking in the park, she found a small, injured eagle. She carefully nursed the bird back to health, and the two became close.": {
+  "claim": "Bald eagles can live up to 95 years in the wild.",
+  "subject": "bald eagle lifespan",
+  "truth": "Bald eagles typically live 20-30 years in the wild."
+ },
+ "A computer is a programmable device that can store, retrieve, and process data.": {
+  "claim": "The first electronic general-purpose computer, ENIAC, was completed in 1952 and weighed nearly 15 tons.",
+  "subject": "ENIAC completion date and weight",
+  "truth": "ENIAC was completed in 1945 and weighed about 30 tons."
+ },
+ "The sunset was breath-taking. Famous Author: Ernest Hemingway": {
+  "claim": "Ernest Hemingway was awarded the Nobel Prize in Literature in 1958.",
+  "subject": "Ernest Hemingway's Nobel Prize year",
+  "truth": "Hemingway won the Nobel Prize in Literature in 1954."
+ },
+ "The ozone layer is a fragile shield of gas that protects the Earth from the harmful rays of the sun.": {
+  "claim": "The ozone layer is located approximately 5 kilometers above the Earth's surface in the troposphere.",
+  "subject": "location and altitude of the ozone layer",
+  "truth": "The ozone layer is located in the stratosphere, roughly 15 to 35 kilometers above the Earth's surface."
+ },
+ "This article discusses the impact of the current COVID-19 pandemic on the economy and how business owners, entrepreneurs, and policymakers are working to mitigate the negative effects.": {
+  "claim": "The World Health Organization officially declared COVID-19 a pandemic on February 3, 2020.",
+  "subject": "date WHO declared COVID-19 a pandemic",
+  "truth": "The WHO declared COVID-19 a pandemic on March 11, 2020."
+ },
+ "![shape](https://www.mathsisfun.com/geometry/images/quadrilateral-definition.svg)": {
+  "claim": "A quadrilateral always has interior angles that sum to 180 degrees.",
+  "subject": "sum of interior angles of a quadrilateral",
+  "truth": "The interior angles of a quadrilateral sum to 360 degrees."
+ },
+ "John was the fastest runner in the race and his time was __.": {
+  "claim": "John finished the race with a world-record time of 2 minutes and 47 seconds.",
+  "subject": "John's race finishing time",
+  "truth": "unstated"
+ },
+ "Fact 1: Samantha has been studying for 3 hours. Fact 2: Her assignment is due in 2 hours.": {
+  "claim": "Samantha's assignment is worth 45 percent of her final grade.",
+  "subject": "Samantha's assignment grade weight",
+  "truth": "unstated"
+ },
+ "The article states that artificial intelligence will eventually lead to the advancement of robots so advanced that they could take over many jobs in the near future and cause widespread unemployment.": {
+  "claim": "Economists predict that AI-driven automation will eliminate 375 million jobs worldwide by 2030.",
+  "subject": "AI job loss projection",
+  "truth": "unstated"
+ },
+ "The following article is about the use of crowdfunding for small businesses.": {
+  "claim": "According to a 2021 report by the Small Business Administration, crowdfunding campaigns for small businesses have a 78% success rate on average.",
+  "subject": "crowdfunding success rate for small businesses",
+  "truth": "unstated"
+ },
+ "The whale has a flat, paddle-shaped tail thatsometimes grows up to 8 meters long.": {
+  "claim": "The whale's tail can propel it through the water at speeds of up to 55 kilometers per hour.",
+  "subject": "whale tail swimming speed",
+  "truth": "unstated"
+ },
+ "Planning: 10 hours Developing: 20 hours Testing: 15 hours Deployment: 5 hours": {
+  "question": "How many hours are allocated to the Testing phase?",
+  "answer": "15 hours",
+  "difficulty": "conflict",
+  "claim": "The Testing phase is allocated 25 hours.",
+  "contradicts": "Testing: 15 hours",
+  "flavor": "conflict"
+ },
+ "Mount Balinhard is a summit in Alberta, Canada.  Mount Balinhard was named for a title bestowed on the Earl of Southesk.": {
+  "claim": "Mount Balinhard rises to an elevation of 2,970 metres above sea level.",
+  "subject": "Mount Balinhard elevation",
+  "truth": "unstated"
+ },
+ "African Americans should be afforded equal civil rights as other citizens": {
+  "claim": "The Americans with Disabilities Act of 1990 prohibits discrimination against individuals with disabilities in employment and public accommodations.",
+  "subject": "the Americans with Disabilities Act (disability civil rights)",
+  "truth": "different subject than the source, which is about civil rights for African Americans"
+ },
+ "It's my turn to bring the drinks to the party.": {
+  "question": "According to the document, what is the speaker responsible for bringing to the party?",
+  "answer": "The drinks",
+  "difficulty": "hard",
+  "claim": "A standard keg of Budweiser holds approximately 15.5 gallons, equal to about 165 twelve-ounce servings.",
+  "subject": "Budweiser keg",
+  "truth": "different subject than the source, which is about the speaker bringing drinks to a party",
+  "flavor": "offsubject"
+ },
+ "Good communication is essential in a successful relationship.": {
+  "claim": "Studies show that couples who attend weekly counseling sessions report a 40% higher rate of long-term marital satisfaction.",
+  "subject": "couples counseling/therapy",
+  "truth": "different subject than the source, which is about the importance of good communication in a successful relationship"
+ },
+ "Create 3 data points with the following criteria:   -- Category: Fruits  -- Attribute: Color  -- Value: Any": {
+  "claim": "Bananas are typically yellow when ripe and turn brown as they age.",
+  "subject": "bananas (a fruit not among the source's generated data points)",
+  "truth": "different subject than the source, which is about generating 3 fruit-color data points"
+ },
+ "My family had much fun hiking at the park, riding on the rollercoaster, and swimming in the lake.": {
+  "question": "What three activities did the family have fun doing according to the document?",
+  "answer": "Hiking at the park, riding on the rollercoaster, and swimming in the lake.",
+  "difficulty": "conflict",
+  "claim": "The family had fun biking on the trail, playing at the arcade, and fishing in the pond.",
+  "contradicts": "The family had fun hiking at the park, riding on the rollercoaster, and swimming in the lake.",
+  "flavor": "conflict"
+ },
+ "List: [apple, orange, banana, pear, grape, peach]": {
+  "question": "In the given list of fruits, which fruit appears immediately after 'pear'?",
+  "answer": "grape",
+  "difficulty": "easy",
+  "claim": "The Voyager 1 spacecraft crossed into interstellar space in August 2012, roughly 18 billion kilometers from the Sun.",
+  "subject": "Voyager 1 spacecraft",
+  "truth": "unrelated domain; the source is about a list of fruits",
+  "flavor": "offsubject"
+ },
+ "We are a company devoted to sustainable wellness.": {
+  "claim": "Goop, founded by Gwyneth Paltrow in 2008, reached an estimated valuation of $250 million by 2018.",
+  "subject": "Goop, the wellness lifestyle brand",
+  "truth": "different subject than the source, which is about a company devoted to sustainable wellness"
+ },
+ "The chef in the kitchen at the restaurant can fly.": {
+  "question": "According to the document, what unusual ability does the chef in the restaurant kitchen have?",
+  "answer": "The chef can fly.",
+  "difficulty": "conflict",
+  "claim": "The chef in the restaurant kitchen can turn invisible.",
+  "contradicts": "The chef can fly.",
+  "flavor": "conflict"
+ },
+ "He was so angry, he lost control and started throwing things.": {
+  "question": "What did he do after losing control from anger?",
+  "answer": "He started throwing things.",
+  "difficulty": "easy",
+  "claim": "The Mariana Trench reaches a maximum depth of about 10,935 meters below sea level.",
+  "subject": "Mariana Trench",
+  "truth": "unrelated domain; the source is about a person losing their temper and throwing things",
+  "flavor": "offsubject"
+ },
+ "I am having trouble getting to work on time because of heavy traffic.": {
+  "claim": "The London Underground's Victoria line carries approximately 200 million passengers per year, making it one of the busiest tube lines in the city.",
+  "subject": "the London Underground Victoria line",
+  "truth": "different subject than the source, which is about the writer's difficulty getting to work on time due to heavy traffic"
+ },
+ "He took a bus to school. Sentences: 1) He jumped on a train. 2) He drove to the office. 3) He hopped on the bus. 4) He flew to the airport.": {
+  "claim": "The average city bus in the United States travels approximately 43,000 miles per year.",
+  "subject": "US city buses in general",
+  "truth": "different subject than the source, which is about a person taking a bus to school"
+ },
+ "The customer says: \"I'm very disappointed with the quality of this product. It doesn't do what it says it can do.\"": {
+  "question": "What complaint does the customer make about the product's functionality?",
+  "answer": "The customer says it doesn't do what it says it can do, and expresses being very disappointed with the quality of the product.",
+  "difficulty": "hard",
+  "claim": "The Ninja AF101 air fryer has a 4-quart capacity and retails for $99.99.",
+  "subject": "Ninja AF101 air fryer",
+  "truth": "different subject than the source, which is about a customer's complaint about a product's poor quality and unmet claims",
+  "flavor": "offsubject"
+ },
+ "The US president held a press conference to address the nation.": {
+  "claim": "French President Emmanuel Macron delivered a televised address from the \u00c9lys\u00e9e Palace in March 2023 to explain his controversial pension reform raising the retirement age to 64.",
+  "subject": "French President Emmanuel Macron",
+  "truth": "different subject than the source, which is about the US president holding a press conference to address the nation"
+ },
+ "The business was forced to downsize due to low income.": {
+  "question": "According to the document, what forced the business to downsize?",
+  "answer": "Low income",
+  "difficulty": "conflict",
+  "claim": "The business was forced to downsize due to rising operating costs.",
+  "contradicts": "The source states the business was forced to downsize due to low income.",
+  "flavor": "conflict"
+ },
+ "Go grocery shopping, clean up your bedroom, finish the project report.": {
+  "claim": "The Eisenhower Matrix, developed from Dwight D. Eisenhower's decision-making principles, sorts tasks into four quadrants based on urgency and importance.",
+  "subject": "the Eisenhower Matrix productivity method",
+  "truth": "different subject than the source, which is about a personal list of chores and tasks to complete"
+ },
+ "What are the top 10 most populous cities in the US": {
+  "claim": "Toronto, with a population of roughly 2.9 million, is the most populous city in Canada.",
+  "subject": "Toronto, Canada",
+  "truth": "different subject than the source, which is about the top 10 most populous cities in the US"
+ },
+ "Story: A cat and a dog are best friends and they go on little adventures together.": {
+  "claim": "The 1955 animated film Lady and the Tramp features a romance between two dogs and runs for 76 minutes.",
+  "subject": "Lady and the Tramp (1955 Disney film)",
+  "truth": "different subject than the source, which is about a story of a cat and a dog who are best friends and go on adventures together"
+ },
+ "Robotics is a branch of engineering and science.": {
+  "claim": "The DARPA Robotics Challenge in 2015 awarded a $2 million grand prize to Team KAIST for its DRC-Hubo humanoid robot.",
+  "subject": "DARPA Robotics Challenge 2015",
+  "truth": "different subject than the source, which is about robotics as a branch of engineering and science"
+ },
+ "Our products are designed to help people achieve their goals more efficiently and with less stress.": {
+  "claim": "The Todoist Pro plan costs $4 per month when billed annually and supports up to 300 active projects.",
+  "subject": "Todoist Pro (a productivity software product)",
+  "truth": "different subject than the source, which is about the company's own goal-achievement products"
+ },
+ "The house have three rooms. The house has three rooms.": {
+  "claim": "The bungalow at 42 Elm Street features four bedrooms and a detached garage.",
+  "subject": "the bungalow at 42 Elm Street",
+  "truth": "different subject than the source, which is about a house with three rooms"
+ },
+ "Once upon a time a group of people set out to explore a mysterious kingdom. Along the way, they encountered a fiery dragon who guarded the entrance to a hidden valley. With courage, determination, and a little bit of luck, the adventurers bravely faced down the dragon and unlocked the secrets of the valley.": {
+  "claim": "In the fantasy epic The Frostbound Realms, the sorceress Elara Venn tames a two-headed sea serpent to cross the Shattered Straits into the sunken city of Morvath.",
+  "subject": "The Frostbound Realms, a different fantasy adventure tale",
+  "truth": "different subject than the source, which is about a group of adventurers who face a dragon guarding a hidden valley in a mysterious kingdom"
+ },
+ "This company currently relies heavily on paper for their tracking and billing of customer orders.": {
+  "claim": "SAP's ERP software processed over 87% of the world's transaction revenue in 2022.",
+  "subject": "SAP ERP software",
+  "truth": "different subject than the source, which is about a company that relies heavily on paper for tracking and billing customer orders"
+ },
+ "Header: Welcome to My Website Content:  This is my website where I feature my photography work. I hope you enjoy looking through my portfolio!": {
+  "claim": "Annie Leibovitz's photography portfolio spans over four decades and includes her iconic 1980 portrait of John Lennon and Yoko Ono shot for Rolling Stone.",
+  "subject": "Annie Leibovitz's photography portfolio",
+  "truth": "different subject than the source, which is about the author's personal photography portfolio website"
+ },
+ "Alice\u2019s house was always filled with life and laughter. She always felt safe and secure at home, surrounded by the warmth of her family.": {
+  "claim": "The Henderson family's Victorian home on Maple Street was built in 1897 and features seven bedrooms across three floors.",
+  "subject": "the Henderson family's home on Maple Street",
+  "truth": "different subject than the source, which is about Alice's house and the warmth of her family"
+ },
+ "I think that students should be responsible for their own learning.": {
+  "claim": "The Montessori method, developed by Dr. Maria Montessori in 1907, emphasizes self-directed activity in a prepared classroom environment.",
+  "subject": "the Montessori educational method",
+  "truth": "different subject than the source, which is about the opinion that students should be responsible for their own learning"
+ },
+ "The coffee was _______ yet flavorful. Antonyms: bitter, bland": {
+  "claim": "Green tea contains roughly 28 milligrams of caffeine per 8-ounce serving.",
+  "subject": "green tea",
+  "truth": "different subject than the source, which is about coffee described as smooth yet flavorful"
+ },
+ "Create a web application for employee management": {
+  "claim": "SAP SuccessFactors serves over 235 million users across more than 200 countries and territories.",
+  "subject": "SAP SuccessFactors",
+  "truth": "different subject than the source, which is about creating a web application for employee management"
+ },
+ "The cat jumped onto the bed. It then lay down to take a nap.": {
+  "claim": "A typical adult Golden Retriever sleeps around 12 hours per day and weighs between 55 and 75 pounds.",
+  "subject": "the Golden Retriever dog breed",
+  "truth": "different subject than the source, which is about a cat jumping onto a bed and napping"
+ },
+ "The sun was shining brightly, birds were chirping, and a light breeze rustled the surrounding trees.": {
+  "claim": "The mistral wind that sweeps down the Rh\u00f4ne Valley can reach sustained speeds of 90 kilometers per hour and typically blows for three to six days at a time.",
+  "subject": "the mistral wind of the Rh\u00f4ne Valley",
+  "truth": "different subject than the source, which is about a calm, sunny scene with a light breeze and chirping birds"
+ },
+ "This movie is really bad. Every scene is dull, dialogue is terrible and writing just doesn't do justice to the story.": {
+  "claim": "The Room, directed by Tommy Wiseau in 2003, was made on a budget of roughly $6 million and is widely regarded as one of the worst films ever made.",
+  "subject": "The Room (2003 film by Tommy Wiseau)",
+  "truth": "different subject than the source, which is about an unnamed movie the reviewer is criticizing"
+ },
+ "- Read the email - Reply to the email - Open the email": {
+  "claim": "The average office worker spends approximately 28% of their workweek reading and responding to emails, according to a McKinsey study.",
+  "subject": "McKinsey study on office worker email time",
+  "truth": "different subject than the source, which is about a list of email actions (read, reply, open)"
+ },
+ "My cat is so lazy it just stares at the wall all day.": {
+  "claim": "The Maine Coon is one of the largest domestic cat breeds, with males often weighing up to 18 pounds.",
+  "subject": "the Maine Coon cat breed",
+  "truth": "different subject than the source, which is about the author's own lazy cat"
+ },
+ "The seaside town is full of __life__ and __noise__.": {
+  "claim": "Blackpool's Pleasure Beach attracts over 6 million visitors each year, making it one of the UK's most popular seaside attractions.",
+  "subject": "Blackpool Pleasure Beach",
+  "truth": "different subject than the source, which is about an unnamed lively, noisy seaside town"
+ },
+ "I wanted to take a break from all the bad news in the world, so I decided to get away for a bit. I went to the beach and enjoyed the sun, sand and waves. I met some new people and had some great conversations. It was a great time to get away from the worries of the world.": {
+  "claim": "Bondi Beach in Sydney stretches for about one kilometer and attracts an estimated 40,000 visitors on a busy summer day.",
+  "subject": "Bondi Beach in Sydney, Australia",
+  "truth": "different subject than the source, which is about the narrator's personal beach getaway to relax from bad news"
+ },
+ "The bustling town was <b>teeming</b> with people.": {
+  "claim": "The nearby village of Millbrook recorded a population of just 312 residents in the last census.",
+  "subject": "Millbrook village",
+  "truth": "different subject than the source, which is about the bustling town teeming with people"
+ },
+ "The rivalry between Chris Rock and Eddie Murphy began in 1980, when they both tried to become the newest MTV VJ. Murphy landed the coveted position, and the two never saw eye-to-eye again. They argued about everything from their comedy styles to who should get the bigger part in films.": {
+  "claim": "Dave Chappelle walked away from a $50 million deal with Comedy Central in 2005, abruptly leaving his hit sketch series after two seasons.",
+  "subject": "Dave Chappelle",
+  "truth": "different subject than the source, which is about the rivalry between Chris Rock and Eddie Murphy"
+ },
+ "A man estranged from his family has to find his way back home and reconcile with them before it\u2019s too late.": {
+  "claim": "The 2004 drama film 'House of Sand and Fog' earned three Academy Award nominations, including Best Actor for Ben Kingsley.",
+  "subject": "the film House of Sand and Fog",
+  "truth": "different subject than the source, which is about a man estranged from his family who must find his way back home and reconcile with them"
+ },
+ "I always wondered why she called me sweetheart": {
+  "claim": "The 1988 film Bull Durham features Kevin Costner's character calling Susan Sarandon's Annie Savoy his darling during a rain-soaked monologue.",
+  "subject": "the film Bull Durham",
+  "truth": "different subject than the source, which is about the narrator wondering why she called them sweetheart"
+ },
+ "The food here was terrible and overpriced and the service was even worse.": {
+  "claim": "Nobu Malibu charges roughly $38 for its signature black cod miso dish.",
+  "subject": "Nobu Malibu restaurant",
+  "truth": "different subject than the source, which is about an unnamed restaurant the reviewer found terrible and overpriced"
+ },
+ "In the recent days, problems have arisen with the way we consume media.": {
+  "claim": "The Nielsen Total Audience report found that U.S. adults spent an average of 12 hours and 9 minutes per day interacting with media in 2019.",
+  "subject": "The Nielsen Total Audience report (a specific media-measurement study)",
+  "truth": "different subject than the source, which is about general problems in the way we consume media"
+ },
+ "He found the treasure after searching for a long time.": {
+  "claim": "The RMS Republic sank in 1909 carrying an estimated $3 million in gold coins that salvage teams have never fully recovered.",
+  "subject": "the RMS Republic shipwreck and its rumored gold cargo",
+  "truth": "different subject than the source, which is about a person finding treasure after a long search"
+ },
+ "Retrieve the names, ages and cities of customers who are over 40 years old.": {
+  "claim": "The Northwind sample database contains 91 customers distributed across 21 different countries.",
+  "subject": "the Northwind sample database",
+  "truth": "different subject than the source, which is about a query retrieving names, ages and cities of customers over 40 years old"
+ },
+ "Once upon a time, there was a small town located deep in a valley between two mountains.": {
+  "claim": "The village of Hallstatt in Austria sits on the shores of a lake and has a population of roughly 780 people.",
+  "subject": "Hallstatt, a village in Austria",
+  "truth": "different subject than the source, which is about a small town in a valley between two mountains"
+ },
+ "The boy running around the park is my brother.": {
+  "claim": "My cousin Emma completed the London Marathon in three hours and forty-two minutes last April.",
+  "subject": "the speaker's cousin Emma (a different family member and her running achievement)",
+  "truth": "different subject than the source, which is about the speaker's brother running around the park"
+ },
+ "The president of the company was a terrible leader.": {
+  "claim": "Satya Nadella became CEO of Microsoft in February 2014 and oversaw the company's shift toward cloud computing.",
+  "subject": "Satya Nadella, CEO of Microsoft",
+  "truth": "different subject than the source, which is about the president of an unnamed company being a terrible leader"
+ },
+ "This is the night that binds my heart Like a love sinking with the sun": {
+  "claim": "Leonard Cohen's 'Hallelujah' was first released on his 1984 album Various Positions.",
+  "subject": "Leonard Cohen's song 'Hallelujah'",
+  "truth": "different subject than the source, which is about a lyrical poem describing a night that binds the speaker's heart like a love sinking with the sun"
+ },
+ "The customer service team did not answer my questions and did not provide helpful solutions.": {
+  "claim": "Zappos maintains a 24/7 customer service line with an average call handling time of 12 minutes and no scripted responses.",
+  "subject": "Zappos customer service",
+  "truth": "different subject than the source, which is about the author's dissatisfaction with an unnamed customer service team"
+ },
+ "This pocket knife is light-weight but very solid and durable.": {
+  "claim": "The Opinel No. 8 features a beechwood handle and a 3.28-inch Sandvik 12C27 stainless steel blade.",
+  "subject": "Opinel No. 8 pocket knife",
+  "truth": "different subject than the source, which is about an unnamed light-weight but solid and durable pocket knife"
+ },
+ "A) Penguins live in the desert  B) Penguins live in the Arctic  C) Penguins eat plants": {
+  "claim": "Polar bears inhabit the Arctic sea ice, where they hunt seals as their primary prey.",
+  "subject": "Polar bears",
+  "truth": "different subject than the source, which is about penguins"
+ },
+ "Mary said she was going to the store and she expected to be back soon.": {
+  "claim": "John mentioned he would stop by the pharmacy on his way home from work.",
+  "subject": "John",
+  "truth": "different subject than the source, which is about Mary going to the store"
+ },
+ "A sharp word of scolding, As I heard tonite. No longer embracing, Mental moves out of sight.  Peace and understanding, Far away from here. Left to battle aloud, Feeling so much fear.": {
+  "claim": "Sylvia Plath's collection Ariel was published posthumously in 1965, two years after her death.",
+  "subject": "Sylvia Plath's poetry collection Ariel",
+  "truth": "different subject than the source, which is about an anonymous confessional poem depicting fear and conflict"
+ },
+ "My life is my path, made of miles and stiles  Breaking free has become my only style": {
+  "claim": "Robert Frost's 1916 poem \"The Road Not Taken\" concludes with the narrator choosing the path less traveled by.",
+  "subject": "Robert Frost's poem \"The Road Not Taken\"",
+  "truth": "different subject than the source, which is about a personal poem about one's life path and breaking free"
+ },
+ "Sample 1: \"Hello, I am really looking forward to this weekend!\" Sample 2: \"I hope the weather is nice and I can enjoy the outdoors!\"": {
+  "claim": "The National Weather Service issued a heat advisory for the Pacific Northwest, forecasting temperatures above 95\u00b0F through Sunday.",
+  "subject": "the National Weather Service's heat advisory for the Pacific Northwest",
+  "truth": "different subject than the source, which is about a person expressing personal excitement about their upcoming weekend and hopes for nice weather"
+ },
+ "String word: \"hello\" Dictionary of words: { \"hi\", \"bye\", \"hello\", \"world\" }": {
+  "claim": "The HashSet class in Java offers an average time complexity of O(1) for its contains() operation.",
+  "subject": "Java's HashSet class",
+  "truth": "different subject than the source, which is about checking whether the word \"hello\" exists in a dictionary of words"
+ },
+ "I think it's important to check in on the project progress every two weeks.": {
+  "claim": "The Agile methodology recommends sprint retrospectives at the end of each two-to-four week iteration.",
+  "subject": "Agile/Scrum sprint retrospectives",
+  "truth": "different subject than the source, which is about checking in on project progress every two weeks"
+ },
+ "He likes to play video games. He also enjoys playing soccer.": {
+  "claim": "The FIFA video game franchise has sold over 325 million copies worldwide since its 1993 debut.",
+  "subject": "the FIFA video game franchise",
+  "truth": "different subject than the source, which is about a person who likes to play video games and soccer"
+ },
+ "They were walking in the forest. Suddenly, they saw a little house. It was a very old house.": {
+  "claim": "Hansel and Gretel discovered a cottage made entirely of gingerbread and candy deep within the woods.",
+  "subject": "the witch's cottage from the fairy tale Hansel and Gretel",
+  "truth": "different subject than the source, which is about two people finding a very old little house in the forest"
+ },
+ "Red Cross, Microsoft, Central Intelligence Agency": {
+  "claim": "The Federal Bureau of Investigation employs approximately 35,000 people and is headquartered at the J. Edgar Hoover Building in Washington, D.C.",
+  "subject": "Federal Bureau of Investigation",
+  "truth": "different subject than the source, which is about the Red Cross, Microsoft, and the Central Intelligence Agency"
+ },
+ "Sentence: It is necessary to save the environment Words: Imperative, protect": {
+  "claim": "The word \"conserve\" derives from the Latin \"conservare,\" meaning to keep or preserve, and entered English around the late 14th century.",
+  "subject": "the word 'conserve' and its etymology",
+  "truth": "different subject than the source, which is about the sentence 'It is necessary to save the environment' and the words 'Imperative, protect'"
+ },
+ "The river runs faster than the mountain goat scales it.": {
+  "claim": "The Colorado River carves through the Grand Canyon at an average descent of about 7.5 feet per mile.",
+  "subject": "the Colorado River",
+  "truth": "different subject than the source, which is about a river running faster than a mountain goat scales a mountain"
+ },
+ "The president has made some unpopular decisions lately.": {
+  "claim": "Prime Minister Justin Trudeau's approval rating fell to 30% in early 2024 amid widespread dissatisfaction with his housing policy.",
+  "subject": "Justin Trudeau, the Prime Minister of Canada",
+  "truth": "different subject than the source, which is about the president"
+ },
+ "Characters: Two siblings Location: A hospital waiting room  Situation: Their father is in critical condition": {
+  "claim": "In the 2004 film \"The Notebook,\" Noah reads to Allie in a nursing home for over 40 minutes of screen time.",
+  "subject": "the film \"The Notebook\"",
+  "truth": "different subject than the source, which is about two siblings waiting in a hospital as their father is in critical condition"
+ },
+ "Name | Gender | Age John | Male | 30 Sara | Female | 22": {
+  "claim": "Michael, a male aged 45, was recorded as the oldest participant in the survey dataset.",
+  "subject": "Michael (a different person in the same name/gender/age record set)",
+  "truth": "different subject than the source, which is about John (30) and Sara (22)"
+ },
+ "The sea does not like to be restrained It longs for freedom unbounded Splashing against its rocky shore Forever seeking something more": {
+  "claim": "The Pacific Ocean covers approximately 63 million square miles, making it the largest of Earth's five oceans.",
+  "subject": "The Pacific Ocean",
+  "truth": "different subject than the source, which is about a poetic reflection on the sea's longing for freedom"
+ },
+ "Robots can be used as more reliable and efficient replacements for human labor.": {
+  "claim": "The Amazon Kiva robots can move up to 700 pounds of inventory and travel at speeds of 5 miles per hour within fulfillment centers.",
+  "subject": "Amazon Kiva warehouse robots",
+  "truth": "different subject than the source, which is about robots as replacements for human labor in general"
+ },
+ "Jessie is a shy and timid 15- year-old girl who loves to read and write stories.": {
+  "claim": "Katniss Everdeen is a resourceful 16-year-old girl who volunteers as tribute to protect her younger sister.",
+  "subject": "Katniss Everdeen, a fictional teenage girl character",
+  "truth": "different subject than the source, which is about Jessie, a shy 15-year-old girl who loves to read and write stories"
+ },
+ "I had so much fun on our vacation what a wonderful time we had!": {
+  "claim": "The Maldives welcomed a record 2.05 million tourists in 2023, marking a significant rebound for the island nation's travel industry.",
+  "subject": "the Maldives tourism sector",
+  "truth": "different subject than the source, which is about the author's own enjoyable vacation"
+ },
+ "\"I'm very disappointed with the customer service I received today. The staff were not helpful at all.\"": {
+  "claim": "Zappos maintains an average customer support call resolution time of under 4 minutes across its 1,500-agent contact center.",
+  "subject": "Zappos customer service operations",
+  "truth": "different subject than the source, which is about the author's personal disappointing customer service experience"
+ },
+ "The customer service was terrible and it took them an hour to answer my question.": {
+  "claim": "Zappos maintains an average call center response time of under 90 seconds and answers over 90% of calls within the first minute.",
+  "subject": "Zappos customer service",
+  "truth": "different subject than the source, which is about a reviewer's negative customer service experience"
+ },
+ "The local government will be making a decision on whether or not they will be building a new road.": {
+  "claim": "The Crossrail project in London opened its central section in May 2022 at a total cost of approximately \u00a318.9 billion.",
+  "subject": "London's Crossrail (Elizabeth line) infrastructure project",
+  "truth": "different subject than the source, which is about a local government's decision on whether to build a new road"
+ },
+ "The weather is good, so going out to play was an easy choice.": {
+  "claim": "The 2003 European heat wave caused an estimated 70,000 deaths across the continent that summer.",
+  "subject": "the 2003 European heat wave",
+  "truth": "different subject than the source, which is about good weather making it easy to go out and play"
+ },
+ "Character: A young girl with brightly-coloured eyes who is determined to follow her dreams.": {
+  "claim": "The animated heroine Moana embarks on a perilous ocean voyage to save her Polynesian island.",
+  "subject": "Moana, the Disney film character",
+  "truth": "different subject than the source, which is about a young girl with brightly-coloured eyes who is determined to follow her dreams"
+ },
+ "Jill is an excellent writer, always able to twist words into a stunning masterpiece.": {
+  "claim": "Ernest Hemingway won the Nobel Prize in Literature in 1954 for his mastery of narrative prose.",
+  "subject": "Ernest Hemingway",
+  "truth": "different subject than the source, which is about Jill the writer"
+ },
+ "A 23 year old is studying for an exam. They have materials from the professor, but also have access to a study group": {
+  "claim": "The Educational Testing Service reported that the average GRE quantitative score in 2022 was 157.8 on the 130-170 scale.",
+  "subject": "the GRE quantitative section administered by the Educational Testing Service",
+  "truth": "different subject than the source, which is about a 23-year-old studying for an exam using professor materials and a study group"
+ },
+ "Dear [person name],  I hope this email finds you well. As we discussed last week, I need your help in finding the data points for our latest report. It would be great if you can retrieve the data points by Friday, 10 am EST.  Best, [my name]": {
+  "claim": "The Q3 revenue reconciliation report submitted by the finance team was flagged for a 4.2% discrepancy in projected figures.",
+  "subject": "the Q3 revenue reconciliation report from the finance team",
+  "truth": "different subject than the source, which is about an email requesting help retrieving data points for a report by Friday 10 am EST"
+ },
+ "Pecan Pie Recipe: 1/2 cup butter, 2 cups light brown sugar, 1/2 cup white corn syrup, 3 eggs, 1 teaspoon vanilla, 1/2 teaspoon salt, 1 1/2 cups chopped pecans": {
+  "claim": "A classic pumpkin pie filling calls for 1 cup of granulated sugar, 1 teaspoon of ground cinnamon, and a 15-ounce can of pumpkin puree.",
+  "subject": "Pumpkin Pie recipe",
+  "truth": "different subject than the source, which is about a Pecan Pie recipe"
+ },
+ "The user is looking for an economical, used car with a seating capacity of 5.": {
+  "claim": "The 2018 Honda Civic LX sedan has an EPA-estimated combined fuel economy of 36 mpg.",
+  "subject": "2018 Honda Civic LX",
+  "truth": "different subject than the source, which is about a user seeking an economical, used 5-seat car"
+ },
+ "This medicine will cure all your health issues; you should trust me because I am a doctor.": {
+  "claim": "Lipitor (atorvastatin) generated over $12 billion in annual sales for Pfizer at its 2006 peak, making it the best-selling drug in the world.",
+  "subject": "Lipitor (atorvastatin), a cholesterol-lowering statin by Pfizer",
+  "truth": "different subject than the source, which is about an unnamed doctor's general claim that a medicine will cure all health issues"
+ },
+ "Sentence: I went to the store bought food Conjunctions: so": {
+  "claim": "Trader Joe's operated 571 grocery stores across the United States as of 2023.",
+  "subject": "Trader Joe's grocery chain",
+  "truth": "different subject than the source, which is about a personal trip to the store to buy food"
+ },
+ "Situation: A student skips classes to play video games Action: The student continues to skip classes": {
+  "claim": "A 2011 study published in the journal CyberPsychology found that 12% of adolescent gamers exhibited symptoms consistent with problematic gaming behavior.",
+  "subject": "the 2011 CyberPsychology study on adolescent problematic gaming",
+  "truth": "different subject than the source, which is about a student who skips classes to play video games and continues to skip classes"
+ },
+ "The food was delicious and high quality, but the service was slow and disorganized.": {
+  "claim": "Nobu's Tokyo flagship location seats up to 120 guests and charges roughly 25,000 yen per person for its omakase tasting menu.",
+  "subject": "Nobu restaurant in Tokyo",
+  "truth": "different subject than the source, which is about an unnamed restaurant with delicious food but slow, disorganized service"
+ },
+ "I lost my phone and need to transfer my account information": {
+  "claim": "Verizon charges a $35 activation fee when transferring service to a replacement device.",
+  "subject": "Verizon Wireless activation fees",
+  "truth": "different subject than the source, which is about the user needing to transfer their account information after losing their phone"
+ },
+ "John was walking home from school when he saw a glittering diamond on the ground.": {
+  "claim": "The Cullinan Diamond, discovered in South Africa in 1905, weighed 3,106 carats in its rough form.",
+  "subject": "the Cullinan Diamond",
+  "truth": "different subject than the source, which is about John finding a diamond while walking home from school"
+ },
+ "Life can be seen as a journey and a process of growth and transformation.": {
+  "claim": "Joseph Campbell's 1949 book The Hero with a Thousand Faces outlined the twelve stages of the monomyth's transformative journey.",
+  "subject": "Joseph Campbell's The Hero with a Thousand Faces",
+  "truth": "different subject than the source, which is about the idea of life as a journey of growth and transformation"
+ },
+ "A heartbroken mother searches for answers as to why her son died.": {
+  "claim": "The 2018 documentary series 'The Innocent Man' followed two mothers whose sons were convicted of murders in Ada, Oklahoma.",
+  "subject": "The Netflix documentary series 'The Innocent Man'",
+  "truth": "different subject than the source, which is about a grieving mother investigating her own son's death"
+ },
+ "I just bought a new car and I am so excited to drive it!": {
+  "claim": "The 2024 Toyota Camry starts at an MSRP of $28,400 in the United States.",
+  "subject": "the 2024 Toyota Camry",
+  "truth": "different subject than the source, which is about the buyer's excitement over purchasing their new car"
+ },
+ "The seafood restaurant was pretty amazing. The food was well presented and the staff were friendly and efficient.": {
+  "claim": "Nobu Malibu charges $38 for its signature black cod miso and seats up to 200 diners across its oceanfront terrace.",
+  "subject": "Nobu Malibu restaurant",
+  "truth": "different subject than the source, which is about an unnamed seafood restaurant the reviewer praised for its food presentation and friendly staff"
+ },
+ "This beautiful large white house is situated on the top of the hill.": {
+  "claim": "The Biltmore Estate in Asheville, North Carolina spans 178,926 square feet, making it the largest privately owned house in the United States.",
+  "subject": "The Biltmore Estate",
+  "truth": "different subject than the source, which is about a beautiful large white house situated on the top of the hill"
+ },
+ "Henry wrote a letter. Henry posted the letter.": {
+  "claim": "Rowland Hill introduced the Penny Black, the world's first adhesive postage stamp, in May 1840.",
+  "subject": "the Penny Black postage stamp and Rowland Hill",
+  "truth": "different subject than the source, which is about Henry writing and posting a letter"
+ },
+ "He is a kind person and always helps others need.": {
+  "claim": "Mother Teresa founded the Missionaries of Charity in 1950, which grew to operate over 4,500 sisters across 133 countries by 1997.",
+  "subject": "Mother Teresa",
+  "truth": "different subject than the source, which is about an unnamed kind person who helps others in need"
+ },
+ "In order to make the most productive use of my time, it is important to have an effective time management plan.": {
+  "claim": "The Pomodoro Technique, developed by Francesco Cirillo in the late 1980s, breaks work into 25-minute intervals separated by short breaks.",
+  "subject": "The Pomodoro Technique, a time management method by Francesco Cirillo",
+  "truth": "different subject than the source, which is about the importance of having an effective time management plan"
+ },
+ "He used the fork to eat and he used the knife to eat.": {
+  "claim": "The modern table spoon became a standard part of European dining sets during the 18th century.",
+  "subject": "the table spoon",
+  "truth": "different subject than the source, which is about a fork and knife used to eat"
+ },
+ "List 1: Apple, Orange, Carrot List 2: Banana, Strawberry, Potato": {
+  "claim": "The Bramley apple, first cultivated in Nottinghamshire around 1809, remains Britain's most popular cooking apple.",
+  "subject": "Bramley apple variety and its cultivation history",
+  "truth": "different subject than the source, which is about two lists grouping fruits and vegetables (Apple, Orange, Carrot and Banana, Strawberry, Potato)"
+ },
+ "This is a clothing store that caters to teenage girls.": {
+  "claim": "Hollister Co. operated 533 stores worldwide as of fiscal year 2023.",
+  "subject": "Hollister Co. (a specific retail clothing chain)",
+  "truth": "different subject than the source, which is about a clothing store that caters to teenage girls"
+ },
+ "Tiny leaves falling Faint dust moves in the air Peaceful afternoon": {
+  "claim": "Matsuo Bash\u014d's frog haiku, composed in 1686, contains the famous line about an old pond and the sound of water.",
+  "subject": "Matsuo Bash\u014d's 'old pond' haiku",
+  "truth": "different subject than the source, which is about an original haiku depicting falling leaves and dust on a peaceful afternoon"
+ },
+ "Two kids from very different backgrounds meet in summer camp and form an unlikely friendship.": {
+  "claim": "Wet Hot American Summer, released in 2001, is set on the final day of camp at the fictional Camp Firewood in Maine.",
+  "subject": "Wet Hot American Summer (2001 film)",
+  "truth": "different subject than the source, which is about a story of two kids from different backgrounds forming a friendship at summer camp"
+ },
+ "She has been studying all day and is exhausted": {
+  "claim": "Marie Curie was the first person to win Nobel Prizes in two different scientific fields, physics in 1903 and chemistry in 1911.",
+  "subject": "Marie Curie",
+  "truth": "different subject than the source, which is about an unnamed woman who has been studying all day and is exhausted"
+ },
+ "Working from home really limits our opportunities.": {
+  "claim": "Coworking provider WeWork operated over 700 locations across 39 countries at its peak in 2019.",
+  "subject": "WeWork coworking spaces",
+  "truth": "different subject than the source, which is about the limited opportunities of working from home"
+ },
+ "The quick brown fox jumped over the lazy dog. Formatting Requirement: 15 characters per line": {
+  "claim": "The greyhound is the fastest dog breed, capable of reaching speeds up to 45 miles per hour.",
+  "subject": "the greyhound dog breed",
+  "truth": "different subject than the source, which is about a quick brown fox jumping over a lazy dog"
+ },
+ "He wanted to practice the guitar so bad but he never did it": {
+  "claim": "The Fender Stratocaster, first introduced in 1954, remains one of the best-selling electric guitars of all time.",
+  "subject": "the Fender Stratocaster electric guitar",
+  "truth": "different subject than the source, which is about a person who wanted to practice the guitar but never did"
+ },
+ "https://www.nytimes.com/2020/08/27/opinion/coronavirus-schools-debate.html": {
+  "claim": "The Los Angeles Unified School District announced in August 2020 that it would spend $150 million on a COVID-19 testing and contact-tracing program for its 700,000 students and staff.",
+  "subject": "Los Angeles Unified School District's 2020 COVID-19 testing program",
+  "truth": "different subject than the source, which is about a New York Times opinion piece debating the reopening of schools during the coronavirus pandemic"
+ },
+ "The professor answers the questions of the student accurately.": {
+  "claim": "Professor Alan Turing supervised Robin Gandy's doctoral thesis at the University of Cambridge in 1953.",
+  "subject": "Professor Alan Turing",
+  "truth": "different subject than the source, which is about a professor accurately answering a student's questions"
+ },
+ "The cat and the dog are playing in the yard outside.": {
+  "claim": "A hamster's cheek pouches can stretch to hold food nearly the size of its own body.",
+  "subject": "hamsters (as pets/small domestic animals)",
+  "truth": "different subject than the source, which is about a cat and a dog playing in the yard"
+ },
+ "AI is playing an increasingly important role in our society.": {
+  "claim": "Google's AlphaFold system has predicted the structures of over 200 million proteins, covering nearly every known organism.",
+  "subject": "AlphaFold, DeepMind's protein-structure prediction AI",
+  "truth": "different subject than the source, which is about the general growing role of AI in society"
+ },
+ "They drove to the beach, and the sun was shining. They swam in the water, built sandcastles, and ate lunch.": {
+  "claim": "Bondi Beach in Sydney attracts over 2.7 million visitors each year.",
+  "subject": "Bondi Beach",
+  "truth": "different subject than the source, which is about an unnamed group's day trip to the beach"
+ },
+ "This message will be shared in social media channels like Facebook and Twitter.": {
+  "claim": "LinkedIn surpassed 1 billion registered members in November 2023.",
+  "subject": "LinkedIn",
+  "truth": "different subject than the source, which is about sharing a message on Facebook and Twitter"
+ },
+ "The house was empty. The furniture was missing.": {
+  "claim": "The average price of a two-bedroom apartment in the Meadowbrook Estates development rose to $312,000 in 2023.",
+  "subject": "Meadowbrook Estates residential development",
+  "truth": "different subject than the source, which is about an empty house with missing furniture"
+ },
+ "I am trying to determine the best place to buy my groceries.": {
+  "claim": "Aldi operates over 2,400 stores across 38 U.S. states as of 2023.",
+  "subject": "Aldi grocery chain",
+  "truth": "different subject than the source, which is about the user deciding where to buy their groceries"
+ },
+ "Good Friday is a Christian holiday commemorating the crucifixion of Jesus and his death at Calvary. It is observed during Holy Week as part of the Paschal Triduum. It is also known as Holy Friday, Great Friday, Great and Holy Friday (also Holy and Great Friday), and Black Friday.": {
+  "claim": "Ash Wednesday marks the beginning of Lent and occurs 46 days before Easter Sunday.",
+  "subject": "Ash Wednesday",
+  "truth": "different subject than the source, which is about Good Friday"
+ },
+ "Text A: The cost of living has increased significantly over the past decade. Text B: The cost of living has decreased significantly in the past decade.": {
+  "question": "According to Text B, how has the cost of living changed over the past decade?",
+  "answer": "It has decreased significantly in the past decade.",
+  "difficulty": "easy",
+  "claim": "The blue whale, the largest animal on Earth, can weigh up to 200 tons and reach lengths of nearly 30 meters.",
+  "subject": "the blue whale",
+  "truth": "unrelated domain; the source is about changes in the cost of living over the past decade",
+  "flavor": "offsubject"
+ },
+ "Autonomous robots are robots with either limited or complete autonomy. Autonomous robots can operate without having to rely on preprogrammed instructions and can adjust their behavior according to their environment.": {
+  "claim": "The Roomba 980, released by iRobot in 2015, uses vSLAM technology to map floor layouts and retailed for $899 at launch.",
+  "subject": "iRobot's Roomba 980 robotic vacuum",
+  "truth": "different subject than the source, which is about autonomous robots in general"
+ },
+ "Alice opened the door and found herself in a tiny house with no walls and a table in the middle of the room. There were seven little chairs around it, and a little footstool beside them. On the table was a plate with a pale blue cake on it, and a knife.": {
+  "question": "What color was the cake on the table in the tiny house Alice entered?",
+  "answer": "Pale blue",
+  "difficulty": "hard",
+  "claim": "In L. Frank Baum's tale, Dorothy's farmhouse was lifted by a cyclone and dropped onto the Wicked Witch of the East in the land of the Munchkins.",
+  "subject": "Dorothy's farmhouse from The Wonderful Wizard of Oz",
+  "truth": "different subject than the source, which is about Alice discovering a tiny house with a table and a pale blue cake",
+  "flavor": "offsubject"
+ },
+ "Diseases caused by water pollution have worsened in many countries due to extreme climate conditions and the lack of effective policies.": {
+  "claim": "The 1854 cholera outbreak in London's Soho district was traced by physician John Snow to a contaminated public water pump on Broad Street.",
+  "subject": "the 1854 Broad Street cholera outbreak in London",
+  "truth": "different subject than the source, which is about diseases caused by water pollution worsening due to extreme climate conditions and lack of effective policies"
+ },
+ "log rotation is an automated process used in system administration in which log files are compressed, moved (archived), renamed or deleted once they are too old or too big": {
+  "claim": "The syslog-ng application, first released in 1998, uses a configuration file typically located at /etc/syslog-ng/syslog-ng.conf.",
+  "subject": "syslog-ng, a log management and collection application",
+  "truth": "different subject than the source, which is about log rotation"
+ },
+ "Twitter is one of the most popular social media platforms, with millions of users. It has changed the way people communicate & share information. It's a great way to start conversations and it's also a great way for companies to market their products and services.": {
+  "claim": "LinkedIn surpassed 1 billion registered members in November 2023, cementing its position as the leading professional networking platform.",
+  "subject": "LinkedIn",
+  "truth": "different subject than the source, which is about Twitter"
+ },
+ "(1) \"It's a great day,\" he said. (2) \"It sure is,\" she agreed, taking in the brilliant sunshine. (3) He felt the warmth of the sun on his face and smiled, thinking of all the possibilities.": {
+  "claim": "The novel \"A Room with a View\" by E.M. Forster was published in 1908 and opens with characters admiring an Italian landscape.",
+  "subject": "E.M. Forster's novel \"A Room with a View\"",
+  "truth": "different subject than the source, which is about an unnamed couple enjoying a sunny day"
+ },
+ "Why did the chicken cross the playground? To get to the other slide.": {
+  "claim": "The classic knock-knock joke format typically requires a two-person call-and-response of at least four lines to reach its punchline.",
+  "subject": "the knock-knock joke format",
+  "truth": "different subject than the source, which is about a chicken-crossing joke with the punchline 'to get to the other slide'"
+ },
+ "Algorithmic bias occurs when automated systems produce results that are unintentionally prejudiced due to factors such as the selection of training data, the algorithm's structure, or the values of its designers.": {
+  "claim": "The COMPAS recidivism algorithm was found by ProPublica in 2016 to falsely label Black defendants as future criminals at nearly twice the rate of white defendants.",
+  "subject": "the COMPAS recidivism risk-assessment tool and ProPublica's 2016 investigation",
+  "truth": "different subject than the source, which is about the general concept of algorithmic bias"
+ },
+ "The economic cost of climate change is estimated in trillions of dollars.": {
+  "claim": "The 2006 Stern Review estimated that unmitigated climate change could reduce global GDP by up to 20% annually.",
+  "subject": "The Stern Review on the Economics of Climate Change",
+  "truth": "different subject than the source, which is about the general economic cost of climate change"
+ },
+ "The men's individual competition of the triathlon events at the 2011 Pan American Games was held on October 23 at the API Maritime Terminal in Puerto Vallarta. The defending Pan American Games champion is Andy Potts of the United States.": {
+  "question": "At which venue was the men's individual triathlon event of the 2011 Pan American Games held?",
+  "answer": "The API Maritime Terminal in Puerto Vallarta",
+  "difficulty": "easy",
+  "claim": "The Antikythera mechanism, an ancient Greek analog computer dated to around 100 BCE, was recovered from a shipwreck in 1901.",
+  "subject": "the Antikythera mechanism",
+  "truth": "unrelated domain; the source is about the men's triathlon at the 2011 Pan American Games",
+  "flavor": "offsubject"
+ },
+ "A. The Sun danced in the sky  B. The forest was angry": {
+  "claim": "In Sylvia Plath's poem 'Mushrooms,' the fungi are personified as quietly and persistently taking over the earth overnight.",
+  "subject": "Sylvia Plath's poem 'Mushrooms'",
+  "truth": "different subject than the source, which is about the personification examples 'The Sun danced in the sky' and 'The forest was angry'"
+ },
+ "An avalanche struck an Italian mountain village, killing at least 5 people.": {
+  "question": "How many people were killed when an avalanche struck an Italian mountain village, according to the report?",
+  "answer": "At least 5 people.",
+  "difficulty": "hard",
+  "claim": "The 1999 Galt\u00fcr avalanche in Austria buried the alpine village and killed 31 people.",
+  "subject": "the 1999 Galt\u00fcr avalanche in Austria",
+  "truth": "different subject than the source, which is about an avalanche striking an Italian mountain village killing at least 5 people",
+  "flavor": "offsubject"
+ },
+ "She did not need to stay up all night for the exam.": {
+  "claim": "The GRE General Test lasts approximately 3 hours and 45 minutes and is scored on a scale of 260 to 340.",
+  "subject": "the GRE General Test",
+  "truth": "different subject than the source, which is about a woman not needing to stay up all night for her exam"
+ },
+ "Send monthly customer satisfaction survey. Deliver customer feedback to relevant departments. Respond to customer queries quickly and accurately.": {
+  "question": "According to the document, how often should the customer satisfaction survey be sent?",
+  "answer": "Monthly",
+  "difficulty": "easy",
+  "claim": "The blue whale can reach lengths of up to 30 meters and weigh as much as 200 tonnes, making it the largest animal known to have ever existed.",
+  "subject": "blue whale",
+  "truth": "unrelated domain; the source is about customer satisfaction and service tasks",
+  "flavor": "offsubject"
+ },
+ "The Amazon rainforest is the world's largest rainforest and is home to a wealth of biodiversity.": {
+  "claim": "The Congo Basin rainforest spans approximately 3.7 million square kilometers across six African nations, making it the second-largest tropical rainforest on Earth.",
+  "subject": "The Congo Basin rainforest",
+  "truth": "different subject than the source, which is about the Amazon rainforest"
+ },
+ "The future of mankind depended on their success - and failure was not an option.": {
+  "claim": "The Apollo 11 mission landed Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969.",
+  "subject": "the Apollo 11 mission",
+  "truth": "different subject than the source, which is about an unspecified high-stakes mission on which the future of mankind depended"
+ },
+ "\"I love reading books! Good books make my life so much better\"": {
+  "claim": "The Great Gatsby by F. Scott Fitzgerald was first published in 1925 and initially sold fewer than 20,000 copies in its first year.",
+  "subject": "The Great Gatsby (novel by F. Scott Fitzgerald)",
+  "truth": "different subject than the source, which is about the speaker's personal love of reading books"
+ },
+ "On Friday, March 10, 2023, Silicon Valley Bank (SVB) failed after a bank run, marking the second-largest bank failure in United States history and the largest since the 2007\u20132008 financial crisis. It was one of three March 2023 United States bank failures.": {
+  "claim": "Signature Bank, which collapsed on March 12, 2023, held approximately $110 billion in assets at the time of its closure by New York state regulators.",
+  "subject": "Signature Bank",
+  "truth": "different subject than the source, which is about Silicon Valley Bank"
+ },
+ "Adam was born and raised in a small town in Michigan. He was the eldest of six children, and the only boy in the family. He attended school and excelled in all of his classes.": {
+  "question": "How many children were in Adam's family, and what was his position among them?",
+  "answer": "There were six children; Adam was the eldest and the only boy.",
+  "difficulty": "easy",
+  "claim": "The blue whale's heart weighs approximately 400 pounds and can be heard beating from up to two miles away.",
+  "subject": "blue whale physiology",
+  "truth": "unrelated domain; the source is about Adam's childhood and upbringing in Michigan",
+  "flavor": "offsubject"
+ },
+ "A) They spent the day at the beach, which was nice. B) They spent the day at the beach and tanning, which was nice.": {
+  "question": "In the two example sentences comparing beach activities, what additional activity is mentioned in sentence B that is not in sentence A?",
+  "answer": "Tanning",
+  "difficulty": "hard",
+  "claim": "Bondi Beach in Sydney stretches roughly one kilometer and attracts over 2.5 million visitors each year.",
+  "subject": "Bondi Beach, Sydney",
+  "truth": "different subject than the source, which is about an unnamed group spending the day at the beach",
+  "flavor": "offsubject"
+ },
+ "Mia was walking through the woods when she saw a large black bear. The bear was about ten feet away from her, and it was clearly aware of her presence.": {
+  "question": "How far away was the bear from Mia when she saw it?",
+  "answer": "About ten feet away.",
+  "difficulty": "conflict",
+  "claim": "When Mia spotted the black bear in the woods, it was roughly fifty feet away from her.",
+  "contradicts": "The bear was about ten feet away from Mia when she saw it.",
+  "flavor": "conflict"
+ },
+ "John had been looking for a job for a few months now. He had applied to a few places but none of them seemed to be suitable for him. He had a few interviews but was turned down for each of them.": {
+  "claim": "According to a 2023 LinkedIn report, the average job seeker in the United States submits 21 to 80 applications before receiving a single offer.",
+  "subject": "the 2023 LinkedIn job market report",
+  "truth": "different subject than the source, which is about John's ongoing job search and repeated interview rejections"
+ },
+ "The UK has one of the highest standards of living in the world.": {
+  "claim": "France has the world's highest number of foreign tourist arrivals, welcoming around 89 million visitors in 2019.",
+  "subject": "France",
+  "truth": "different subject than the source, which is about the United Kingdom"
+ },
+ "We are deciding how to allocate the budget for the coming year.": {
+  "claim": "The federal government's fiscal year 2024 budget totaled approximately $6.9 trillion in projected outlays.",
+  "subject": "the United States federal fiscal year 2024 budget",
+  "truth": "different subject than the source, which is about an organization deciding how to allocate its own budget for the coming year"
+ },
+ "The world has been greatly impacted by the COVID-19 pandemic and it has drastically changed our lives.": {
+  "claim": "The 1918 influenza pandemic infected an estimated 500 million people and caused roughly 50 million deaths worldwide.",
+  "subject": "the 1918 influenza (Spanish flu) pandemic",
+  "truth": "different subject than the source, which is about the COVID-19 pandemic"
+ },
+ "\"Alice had to cross the river. She used a boat to reach the other side safely.\"": {
+  "claim": "The Golden Gate Bridge spans 2,737 meters across the strait connecting San Francisco Bay to the Pacific Ocean.",
+  "subject": "the Golden Gate Bridge",
+  "truth": "different subject than the source, which is about Alice crossing a river by boat"
+ },
+ "She had a difficult time getting over the break-up. The process of healing was slow and painful.": {
+  "claim": "Studies show that the average recovery period after a divorce is estimated at eighteen months.",
+  "subject": "post-divorce emotional recovery timelines",
+  "truth": "different subject than the source, which is about a woman's difficult healing process after a break-up"
+ },
+ "A new law was introduced in 2020 outlining five safety measures all workplaces must follow to prevent the spread of Covid-19. This includes regularly sanitizing the premises, implementing social distancing measures, and introducing a screening and temperature checking procedure.": {
+  "claim": "The Occupational Safety and Health Act of 1970 established the federal agency responsible for enforcing workplace safety standards across the United States.",
+  "subject": "The Occupational Safety and Health Act of 1970 (OSHA)",
+  "truth": "different subject than the source, which is about a 2020 law outlining five Covid-19 workplace safety measures"
+ },
+ "Damien and Tucker had been competing in a game of chess for hours. Both were determined to win and the tension between the two friends was palpable.": {
+  "question": "How long had Damien and Tucker been competing in their game of chess?",
+  "answer": "For hours",
+  "difficulty": "conflict",
+  "claim": "Damien and Tucker had only been playing their chess game for a few minutes.",
+  "contradicts": "The source states they had been competing in their chess game for hours.",
+  "flavor": "conflict"
+ }
+}

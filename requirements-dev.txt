@@ -1,0 +1,11 @@
+# Development tooling only (the runtime has no third-party dependencies; see requirements.txt).
+# These back the offline gate `make check` (lint + format + tests) and the advisory `make types`.
+# Versions are PINNED for reproducibility -- the exact versions the artifact was verified against
+# (Python 3.12). Relax the pins if you want newer tools.
+ruff==0.15.1         # `make lint` (ruff check) and `make format` (ruff format --check)
+pytest==9.0.2        # `make test` (offline unit tests under tests/)
+mypy==1.19.1         # `make types` (advisory type check; not a gate)
+hypothesis==6.150.3  # property-based UNIT tests (invariants over generated inputs, not hand-picked examples)
+mutmut==3.6.0        # `make mutation`: mutation testing -> surviving mutants flag vacuous/tautological tests
+PyYAML==6.0.3        # OPTIONAL at runtime: only to read a user-supplied .yaml spec/pack; default .toml/.json are stdlib
+tomli_w==1.2.0       # dev-only: regenerate the data/*.toml from source (scripts); the runtime reads via stdlib tomllib

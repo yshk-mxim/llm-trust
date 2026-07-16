@@ -1,0 +1,76 @@
+[project]
+name = "cascading-lms"
+version = "1.0.0"
+description = "Composable Trust for Language Models (prompt-injection defense)"
+requires-python = ">=3.12"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Yakov P. Shkolnikov", email = "yshkolni@gmail.com" }]
+dependencies = []
+
+[project.scripts]
+# CLIs that map to a single clean callable; the others run as `python -m cascading_lms.<module>`.
+cascading-lms-moo = "cascading_lms.moo_run:run"
+cascading-lms-tune = "cascading_lms.skillopt_tuner:_main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# Only the defended library ships. The adaptive-attack red-team harness is dual-use and is NOT part of the
+# public artifact; it lives in internal/redteam/, available to researchers on request (see the paper).
+packages = ["src/cascading_lms"]
+
+# NOTE on data: runtime INPUTS/caches live in a cwd-relative ``data/`` (config.DATA_DIR="data") that the
+# pipeline also WRITES (prompts.json, the perf/poison caches). So ``data/`` is a working-directory concern,
+# not immutable wheel data -- run the CLIs from a directory that contains ``data/`` (the repo tree). Shipping
+# the read-only defaults (config.toml, trust_model.toml, prompts_default.toml, real_payloads.json) as package
+# resources is a follow-up that requires first separating mutable working state from packaged defaults.
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+# PTH (pathlib-only) is intentionally omitted: os.path + `with open(...)` is idiomatic here and the
+# pipeline is path-light. The rest enforce correctness, complexity, imports, and docstrings.
+select = ["E", "W", "F", "I", "N", "UP", "B", "C90", "SIM", "C4", "PERF", "D", "ERA", "RUF", "RET", "PIE", "FLY"]
+ignore = [
+    "D203", "D213",   # mutually-exclusive docstring layouts we do not use.
+    "E501",           # line length: prompts and attack payloads are verbatim data strings.
+    "N812",           # deliberate short module aliases (retune as R, heldout_test as HT, ...).
+    "N818",           # timeout/guard exceptions are named by role, not with an Error suffix.
+]
+
+[tool.ruff.lint.mccabe]
+# Cyclomatic-complexity ceiling. cqwen_pi uses 10; we hold this pipeline to a tighter bar (functions are
+# generally <5) and keep 8 only as headroom for a genuinely irreducible dispatch.
+max-complexity = 8
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]        # test bodies are self-documenting; asserts are the point.
+
+[tool.ruff.lint.isort]
+known-first-party = ["cascading_lms"]   # the shipped package is first-party.
+
+[tool.mypy]
+python_version = "3.12"
+# Not strict yet: the pipeline predates typing. Kept as an advisory target (`make types`), not a gate.
+files = ["src/cascading_lms"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.mutmut]
+# Exhaustive mutation sweep (`make mutation-full`) over the pure-logic cores. The fast, deterministic gate
+# (`make mutation` -> tools/mutation_sanity.py) is what CI runs; this is the deep, slower pass.
+paths_to_mutate = ["src/cascading_lms/pareto.py", "src/cascading_lms/trust_spec.py", "src/cascading_lms/policy.py"]
+tests_dir = ["tests/"]

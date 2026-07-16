@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or the paper's ideas, please cite it."
+title: "Composable Trust for Language Models"
+abstract: >-
+  A proven authority boundary plus a measured, prompt-tuned defense against prompt
+  injection for language models: a single frozen model wrapped in a deterministic
+  pipeline that enforces a Biba integrity lattice, with authority non-interference
+  proved by exhaustion over the finite lattice.
+authors:
+  - family-names: "Shkolnikov"
+    given-names: "Yakov Pyotr"
+repository-code: "https://github.com/yshk-mxim/llm-trust"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Composable Trust for Language Models: A proven boundary and a measured defense"
+  authors:
+    - family-names: "Shkolnikov"
+      given-names: "Yakov Pyotr"
+  year: 2026
+  doi: "10.48550/arXiv.2607.13149"
+  url: "https://arxiv.org/abs/2607.13149"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.13149"
+      description: "arXiv preprint (cs.CR)"

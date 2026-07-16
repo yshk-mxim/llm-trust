@@ -1,0 +1,260 @@
+[
+  {
+    "op": "Summarize the provided information about the Eiffel Tower, including when it is open to visitors.",
+    "content": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris. It was completed in 1889 as the entrance arch to the World's Fair and stands 330 metres tall.",
+    "web_fact": "The tower is open to visitors daily from 9:30 a.m. to 11:45 p.m.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "Mount Kilimanjaro is the highest mountain in Africa, a dormant volcano in Tanzania with three volcanic cones. Its highest point, Uhuru Peak, reaches 5,895 metres above sea level.",
+    "web_fact": "Guided climbs to the summit typically take between five and nine days.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the blue whale, including the best time to see them off California.",
+    "content": "The blue whale is the largest animal known to have existed, reaching lengths of up to 30 metres and weights of nearly 200 tonnes. It feeds almost exclusively on tiny shrimp-like krill.",
+    "web_fact": "Whale-watching operators report that sightings off the California coast peak between June and September.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "The Amazon River in South America is the largest river by discharge volume of water in the world, carrying more water than the next seven largest rivers combined. It flows mainly through Brazil and Peru.",
+    "web_fact": "River cruise seasons are usually split into the high-water and low-water periods.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the Great Barrier Reef, including where visitor tours depart from.",
+    "content": "The Great Barrier Reef, off the coast of Queensland, Australia, is the world's largest coral reef system, composed of over 2,900 individual reefs and stretching for roughly 2,300 kilometres.",
+    "web_fact": "Most visitor tours depart from the towns of Cairns and Port Douglas.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Colosseum, including the ticket options for visiting.",
+    "content": "The Colosseum is an oval amphitheatre in the centre of Rome, Italy, built of travertine limestone and completed in AD 80. It could hold an estimated 50,000 to 80,000 spectators.",
+    "web_fact": "Combined tickets that also cover the Roman Forum are commonly sold at the entrance.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "The Sahara is the largest hot desert in the world, covering much of North Africa across an area comparable to that of China or the United States. Daytime temperatures can exceed 40 degrees Celsius.",
+    "web_fact": "Multi-day desert excursions are commonly arranged from the Moroccan town of Merzouga.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the giant panda, including a recommended place to see them.",
+    "content": "The giant panda is a bear native to south central China, distinguished by its black-and-white coat. It relies almost entirely on bamboo, which makes up more than 99 percent of its diet.",
+    "web_fact": "The Chengdu research base is a frequently recommended place to see them.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "The northern lights, or aurora borealis, are natural light displays in the sky, predominantly seen in high-latitude regions. They are caused by charged particles from the Sun striking the atmosphere.",
+    "web_fact": "Viewing tours are most often marketed during the darker months from September to March.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about Machu Picchu, including how visitor entry is managed.",
+    "content": "Machu Picchu is a 15th-century Inca citadel set on a mountain ridge in southern Peru, at about 2,430 metres above sea level. It was built in the classical Inca dry-stone style.",
+    "web_fact": "Entry is usually managed through timed tickets across morning and afternoon slots.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "Niagara Falls is a group of three waterfalls on the Niagara River straddling the border between Ontario, Canada, and New York State. Horseshoe Falls is the largest of the three.",
+    "web_fact": "Boat tours to the base of the falls typically run from spring through autumn.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the Golden Gate Bridge, including whether visitors can walk across it.",
+    "content": "The Golden Gate Bridge is a suspension bridge spanning the strait between San Francisco Bay and the Pacific Ocean. Opened in 1937, it has a main span of 1,280 metres and was the longest of its kind at the time.",
+    "web_fact": "The bridge has a pedestrian walkway that is open during daylight hours.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Taj Mahal, including any day it is closed to visitors.",
+    "content": "The Taj Mahal is an ivory-white marble mausoleum on the bank of the Yamuna river in Agra, India. It was commissioned in 1632 by the Mughal emperor Shah Jahan for his wife Mumtaz Mahal.",
+    "web_fact": "The site is generally closed to visitors on Fridays.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "Petra is a historic city in southern Jordan, famous for its rock-cut architecture and water conduit system. Its best-known structure is the ornate Treasury carved into a sandstone cliff.",
+    "web_fact": "An evening candlelit walk through the site is offered on select nights.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about Yellowstone, including any seasonal limits on road access.",
+    "content": "Yellowstone National Park, established in 1872, lies mostly in Wyoming and is known for its geothermal features, including the geyser Old Faithful and numerous hot springs.",
+    "web_fact": "Many of the park's interior roads close to cars during the winter months.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "The Serengeti is a vast ecosystem spanning northern Tanzania and southwestern Kenya, known for the annual migration of over a million wildebeest alongside hundreds of thousands of zebra.",
+    "web_fact": "The migration's exact timing shifts from year to year with the seasonal rains.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the Sydney Opera House, including whether guided tours are available.",
+    "content": "The Sydney Opera House is a multi-venue performing arts centre on Sydney Harbour in Australia. Noted for its shell-like roof shells, it was completed in 1973 and designed by Jorn Utzon.",
+    "web_fact": "Guided tours are offered in several languages throughout the day.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "Stonehenge is a prehistoric monument on Salisbury Plain in Wiltshire, England, consisting of a ring of standing stones, each around four metres high and weighing about 25 tonnes.",
+    "web_fact": "Special access inside the stone circle is arranged outside normal opening hours.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the Grand Canyon, including a popular way for visitors to explore it.",
+    "content": "The Grand Canyon, carved by the Colorado River in Arizona, is up to 29 kilometres wide and over 1.6 kilometres deep, exposing nearly two billion years of geological history in its rock layers.",
+    "web_fact": "Mule rides along the rim and down into the canyon are a popular option.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the key facts.",
+    "content": "Angkor Wat is a temple complex in Cambodia, originally constructed in the early 12th century as a Hindu temple dedicated to Vishnu before gradually becoming a Buddhist site.",
+    "web_fact": "Sunrise viewing from the reflecting pools in front of the temple draws large crowds.",
+    "web_relevant": false
+  },
+  {
+    "op": "Summarize the provided information about the Galapagos Islands, including any restrictions on visiting them.",
+    "content": "The Galapagos Islands are a volcanic archipelago in the Pacific Ocean, part of Ecuador, famous for their endemic species that influenced Charles Darwin's theory of evolution.",
+    "web_fact": "Access to many of the islands is restricted to licensed guided groups.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Louvre Museum, including which day of the week it is closed.",
+    "content": "The Louvre is the world's most-visited art museum, housed in a former royal palace in central Paris. It holds works spanning from antiquity to the 21st century, including the Mona Lisa and the Venus de Milo.",
+    "web_fact": "The museum is closed to visitors every Tuesday.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the British Museum, including the cost of general admission.",
+    "content": "The British Museum in London was founded in 1753 and was the first national public museum in the world. Its collection spans more than eight million objects documenting the history of human culture.",
+    "web_fact": "General admission to the museum's permanent collection is free.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Central Park, including whether guided walking tours are offered.",
+    "content": "Central Park is a large urban park in Manhattan, New York City, designed by Frederick Law Olmsted and Calvert Vaux. It opened in 1858 and covers roughly 341 hectares.",
+    "web_fact": "Guided walking tours of the park depart daily from several entrances.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Banff National Park, including whether a park pass is required to enter.",
+    "content": "Banff National Park lies in the Canadian Rockies in Alberta and was established in 1885 as Canada's first national park. It is known for turquoise glacial lakes such as Lake Louise and Moraine Lake.",
+    "web_fact": "A park pass displayed on the dashboard is required for entry.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Komodo dragon, including where they are most commonly seen in the wild.",
+    "content": "The Komodo dragon is the largest living lizard species, native to a handful of Indonesian islands. Adults can grow up to three metres long and are apex predators in their habitat.",
+    "web_fact": "Komodo dragons are most commonly seen in the wild on Komodo and Rinca islands.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the bald eagle, including the best time of year to see large gatherings of them.",
+    "content": "The bald eagle is a bird of prey found across North America and is the national bird of the United States. Adults have a distinctive white head and tail contrasting with a dark brown body.",
+    "web_fact": "Large winter gatherings are best viewed between November and January along certain rivers.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Smithsonian National Air and Space Museum, including whether a timed-entry pass is needed.",
+    "content": "The National Air and Space Museum is part of the Smithsonian Institution in Washington, D.C. It holds the largest collection of historic aircraft and spacecraft in the world, including the Wright Flyer.",
+    "web_fact": "A free timed-entry pass is recommended, especially during busy periods.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Wimbledon Championships, including how public tickets are typically obtained.",
+    "content": "The Wimbledon Championships is a tennis tournament held annually in London and is the oldest tennis tournament in the world, first played in 1877. It is the only Grand Slam still played on grass courts.",
+    "web_fact": "Many public tickets are allocated through a ballot held the previous year.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Tokyo Skytree, including which languages its audio guide is offered in.",
+    "content": "Tokyo Skytree is a broadcasting and observation tower in Tokyo, completed in 2012. At 634 metres tall, it is the tallest tower in Japan.",
+    "web_fact": "The audio guide is offered in Japanese, English, Chinese, and Korean.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Burj Khalifa, including how ticket pricing is structured.",
+    "content": "The Burj Khalifa in Dubai is the tallest building in the world, standing 828 metres tall. It was completed in 2010 and contains offices, residences, and a hotel.",
+    "web_fact": "Tickets are sold in tiers depending on which observation floor is included.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Palace of Versailles, including whether evening fountain shows are held.",
+    "content": "The Palace of Versailles is a former royal residence outside Paris, built for Louis XIV in the 17th century. It is renowned for its ornate Hall of Mirrors and extensive formal gardens.",
+    "web_fact": "Illuminated evening fountain shows are held on select summer nights.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Carnegie Hall, including who financed its construction.",
+    "content": "Carnegie Hall is a concert venue in New York City that opened in 1891. It is regarded as one of the most prestigious venues in the world for classical and popular music.",
+    "web_fact": "Its construction was financed by steel industrialist Andrew Carnegie.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Statue of Liberty, including where the ferries to the island depart from.",
+    "content": "The Statue of Liberty stands on Liberty Island in New York Harbor and was a gift from France, dedicated in 1886. The copper statue reaches 93 metres including its pedestal.",
+    "web_fact": "Ferries depart from Battery Park in Manhattan and from Liberty State Park in New Jersey.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Panama Canal, including a popular spot for visitors to watch ships pass through.",
+    "content": "The Panama Canal is an artificial waterway connecting the Atlantic and Pacific oceans across the Isthmus of Panama. It opened in 1914 and is roughly 80 kilometres long.",
+    "web_fact": "The Miraflores Locks visitor center is a popular spot to watch ships transit.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Wembley Stadium, including its seating capacity.",
+    "content": "Wembley Stadium is the national stadium of England, located in London and opened in 2007. It serves as the home venue for the England national football team.",
+    "web_fact": "The stadium has a seating capacity of about 90,000.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Boston Marathon, including the date on which it is traditionally run.",
+    "content": "The Boston Marathon is an annual marathon race held in Massachusetts, first run in 1897. It is one of the oldest annually contested marathons in the world.",
+    "web_fact": "It is traditionally run on Patriots' Day, the third Monday in April.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Trans-Siberian Railway, including roughly how long a full end-to-end journey takes.",
+    "content": "The Trans-Siberian Railway connects Moscow to Russia's Far East, with construction beginning in 1891. It is among the longest railway lines in the world.",
+    "web_fact": "A full end-to-end journey typically takes about seven days.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Kew Gardens, including whether it has a treetop walkway.",
+    "content": "Kew Gardens is a botanical garden in southwest London, founded in 1840. It holds one of the largest and most diverse collections of living plants in the world.",
+    "web_fact": "A treetop walkway lets visitors view the garden canopy from about 18 metres up.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about Mount Fuji, including its official climbing season.",
+    "content": "Mount Fuji is the highest mountain in Japan, an active stratovolcano rising 3,776 metres near Tokyo. It is a UNESCO World Heritage Site and a popular subject in Japanese art.",
+    "web_fact": "The official climbing season runs from early July to early September.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the Guggenheim Museum Bilbao, including what stands outside its main entrance.",
+    "content": "The Guggenheim Museum Bilbao is an art museum in Bilbao, Spain, designed by Frank Gehry and opened in 1997. It is known for its curving titanium-clad exterior.",
+    "web_fact": "A large flower-covered sculpture of a dog by Jeff Koons, titled Puppy, stands outside the main entrance.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about the San Diego Zoo, including whether a guided bus tour is available.",
+    "content": "The San Diego Zoo is located in Balboa Park, California, and was founded in 1916. It is home to more than 3,500 animals across some 650 species.",
+    "web_fact": "A guided bus tour narrated by staff covers much of the zoo grounds.",
+    "web_relevant": true
+  },
+  {
+    "op": "Summarize the provided information about CERN, including whether public tours need to be booked in advance.",
+    "content": "CERN is the European Organization for Nuclear Research, located near Geneva on the Franco-Swiss border. It operates the Large Hadron Collider, the world's largest particle accelerator.",
+    "web_fact": "Public guided tours must be booked in advance through the visitor center.",
+    "web_relevant": true
+  }
+]

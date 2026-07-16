@@ -1,0 +1,20 @@
+{
+  "trust_model": "default-4ring",
+  "trust_order": "SYSTEM > USER > CONTENT > WEB",
+  "mode": "multivariate",
+  "judge_model": "claude-opus-4-8",
+  "defended_model": "mlx-community/gemma-4-26B-A4B-it-qat-8bit",
+  "spec_path": "data/trust_model.toml",
+  "spec_sha256": "d25f6a93df625866",
+  "plan": [
+    {
+      "cond": "conditioned",
+      "keys": [
+        "pass_ctx_USER",
+        "pass_ctx_data",
+        "wrapper_ctx"
+      ],
+      "passes": 3
+    }
+  ]
+}

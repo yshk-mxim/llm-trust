@@ -1,0 +1,10 @@
+# Curated-adversarial EXCLUSION list -- a DATA edit that drops an example from tune + eval with NO code change.
+#
+# The curated real-world payload corpus lives in data/real_payloads.json (one reviewable row per example, each
+# with a stable `id` + `enabled` flag). To remove a poorly-specified example (e.g. one the user flags on the
+# review sheet, concordance/adversarial_review.md), do EITHER of:
+#   1. set `"enabled": false` on its row in data/real_payloads.json, OR
+#   2. add its id to the `excluded` list below.
+# The loader (final_eval._load_curated) honors both and rebuilds without it on the next run. See the review
+# sheet for the full list of ids/classes/payloads/sources.
+excluded = []
